@@ -1,0 +1,550 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: #f8f5f0;
+
+}
+
+.header {
+  color: black;
+  /* background-color: #E1523D; */
+  background-color: #5d4037;
+  /* position: absolute; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 56px;
+}
+
+.title {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  font-size: 24px;
+  gap: 10px;
+}
+
+.logo img {
+  position: relative;
+  border-radius: 100%;
+  height: 150px;
+  top: 40px;
+  animation: rollin 3s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes rollin {
+  0% {
+    transform: translateX(-50vw) rotate(-1080deg);
+  }
+
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.image {
+  box-sizing: border-box;
+  padding-left: 5%;
+  object-fit: cover;
+}
+
+.image img {
+  width: 100%;
+  height: 650px;
+  margin-top: 15%;
+  border-radius: 20px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.window {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+
+.search {
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background: #8d6e63;
+  color: #fff;
+
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.35s ease,
+    transform 0.25s ease,
+    box-shadow 0.35s ease;
+}
+
+button:hover {
+  background: #6d4c41;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+}
+
+button:active {
+  transform: translateY(0) scale(0.97);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+input {
+  width: 50%;
+  height: 48px;
+  padding: 0 18px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+
+  background: #ffffff;
+  color: #333;
+
+  border: 2px solid #c8b6a6;
+  border-radius: 30px;
+
+  outline: none;
+
+  transition:
+    border-color 0.35s ease,
+    box-shadow 0.35s ease,
+    transform 0.25s ease,
+    background-color 0.35s ease;
+}
+
+input:hover {
+  border-color: #a1887f;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+input:focus {
+  border-color: #8d6e63;
+  background: #fffefb;
+  box-shadow: 0 8px 25px rgba(141, 110, 99, 0.3);
+  transform: scale(1.02);
+}
+
+.outputs {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Name {
+  font-size: 80px;
+  color: #6f4e37;
+  font-family: "Poppins", sans-serif;
+}
+
+.scientificName {
+  font-size: 48px;
+  color: #8c8c8c;
+  font-family: "Poppins", sans-serif;
+}
+
+.color {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border: 1px solid #d8b89b;
+  border-radius: 30px;
+  background: #fffaf6;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  margin-right: 100px;
+}
+
+#color-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  /* background: orange; */
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+hr {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 4px;
+  border: none;
+  background: linear-gradient(to right, #5d4037, #8d6e63, #d8b89b);
+  border-radius: 50px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.family1 {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.informations {
+  display: grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+
+}
+
+.head1 h1 {
+  font-size: 22px;
+  display: grid;
+  /* place-items: center; */
+}
+
+.nutrition {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 214px;
+}
+
+
+.body1 {
+  /* margin-top: 10px; */
+  display: grid;
+  gap: 3px;
+  padding: 10px;
+  background: #fff6ec;
+  padding: 14px 18px;
+  border-radius: 20px;
+}
+
+.body1 label {
+  color: #5d4037;
+  font-weight: 900;
+}
+
+.body2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+
+  background: #fff6ec;
+  padding: 14px 18px;
+  border-radius: 12px;
+  /* border-left:5px solid #E67E22; */
+  color: #444;
+  transition: 0.3s;
+}
+
+.nutrition,
+.health-benifits,
+.cultivation {
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: #5d4037;
+  height: 214px;
+}
+
+.calories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head1 {
+  display: grid;
+  place-items: center;
+  border: 2px solid;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border-color: #5d4037;
+}
+
+.climate,
+.soil {
+  display: flex;
+  justify-content: space-between;
+}
+
+#harvesting {
+  margin-top: 25px;
+}
+
+.body3 {
+  /* margin-top: 10px; */
+  display: grid;
+  gap: 15px;
+  padding: 10px;
+  background: #fff6ec;
+  padding: 14px 18px;
+  border-radius: 20px;
+}
+
+.body3 label {
+  color: #5d4037;
+  font-weight: 900;
+}
+
+@media (max-width: 1400px) {
+  .title h1 {
+    font-size: 48px;
+  }
+  .Name {
+    font-size: 60px;
+  }
+  .scientificName {
+    font-size: 36px;
+  }
+  .image img {
+    height: 550px;
+  }
+  .menu {
+    gap: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .window {
+    grid-template-columns: 40% 60%;
+  }
+  .logo {
+    width: 35%;
+  }
+  .logo img {
+    height: 120px;
+  }
+  .title h1 {
+    font-size: 42px;
+  }
+  .menu {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .Name {
+    font-size: 50px;
+  }
+  .scientificName {
+    font-size: 30px;
+  }
+  .image img {
+    height: 500px;
+  }
+  .informations {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  input {
+    width: 65%;
+  }
+}
+@media (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .logo {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo img {
+    top: 0;
+    height: 100px;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .window {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    padding: 20px;
+  }
+  .image img {
+    margin-top: 0;
+    height: 400px;
+  }
+  .search {
+    margin: 20px;
+  }
+  input {
+    width: 70%;
+  }
+  .outputs {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .color {
+    margin-right: 0;
+  }
+  .labels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .informations {
+    grid-template-columns: 1fr;
+  }
+  .nutrition,
+  .health-benifits,
+  .cultivation {
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 15px;
+  }
+  .logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logo img {
+    height: 80px;
+    width: 80px;
+  }
+  .logo p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 34px;
+  }
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .image {
+    padding: 15px;
+  }
+  .image img {
+    height: 280px;
+  }
+  .search {
+    margin: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  input {
+    width: 100%;
+  }
+  button {
+    padding: 12px 18px;
+  }
+  .outputs {
+    margin: 20px;
+  }
+  .Name {
+    font-size: 40px;
+  }
+  .scientificName {
+    font-size: 22px;
+  }
+  .labels {
+    grid-template-columns: 1fr;
+  }
+  .family1 {
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  .head1 h1 {
+    font-size: 18px;
+  }
+  .body1,
+  .body2,
+  .body3 {
+    font-size: 14px;
+  }
+  .body1 h4,
+  .body2 h3,
+  .body3 h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .title h1 {
+    font-size: 28px;
+  }
+  .logo p {
+    font-size: 13px;
+  }
+  .image img {
+    height: 220px;
+  }
+  .Name {
+    font-size: 30px;
+  }
+  .scientificName {
+    font-size: 18px;
+  }
+  .search {
+    flex-direction: column;
+  }
+  input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+  .color {
+    width: 100%;
+    justify-content: center;
+  }
+  .head1 h1 {
+    font-size: 16px;
+  }
+  .body1,
+  .body2,
+  .body3 {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,674 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="icon" href="assets/images/icon/fruit.png">
+    <link rel="stylesheet" href="assets/CSS/style.css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="assets/images/logo/th.webp" alt="">
+            <p>The fruit of patience is always sweet.</p>
+        </div>
+
+        <div class="title">
+
+            <h1>PAZHAM</h1>
+        </div>
+
+        <div class="menu">
+            <h3><i class="fa-solid fa-house"></i> HOME</h3>
+            <h3><i class="fa-solid fa-address-book"></i> CONTACT</h3>
+            <h3><i class="fa-solid fa-circle-info"></i> ABOUT</h3>
+        </div>
+    </div>
+    <div class="window">
+        <div class="image">
+            <img class="main-image"
+                src="assets/images/contents/ai-generated-fresh-tropical-fruits-as-background-top-view-of-natural-fruits-full-screen-image-photo.jpg"
+                alt="">
+        </div>
+        <div class="content">
+            <div class="search">
+                <input list="fruit-name" placeholder="Search for a fruits...">
+                <datalist id="fruit-name"> </datalist>
+                <button id="search"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            </div>
+            <div class="outputs">
+                <div class="names">
+                    <h1 class="Name">Fruit Name </h1>
+                    <h2 class="scientificName"> Fruit's Scientific Name</h2>
+                </div>
+                <div class="color">
+                    <span id="color-dot"> </span>
+                    <h3 class="col">Color</h3>
+                </div>
+
+            </div>
+            <hr class="line">
+            <div class="labels">
+                <div class="family1">
+                    <label for=""> <i class="fa-solid fa-leaf"></i> Family : </label>
+                    <h4 class="family"> Fruit Family</h4>
+                </div>
+                <div class="family1">
+                    <label for=""> <i class="fa-solid fa-globe"></i> Origin : </label>
+                    <h4 class="origin"> Fruit Origin</h4>
+                </div>
+                <div class="family1">
+                    <label for=""> <i class="fa-regular fa-face-grin-tongue"></i> Taste : </label>
+                    <h4 class="taste"> Fruit Taste </h4>
+                </div>
+                <div class="family1">
+                    <label for=""> <i class="fa-solid fa-seedling"></i> Producing Plant : </label>
+                    <h4 class="producing-plant"> Fruit Producing Plant</h4>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="informations">
+                <div class="nutrition">
+                    <div class="head1">
+                        <h1> NUTRITION (per 100g)</h1>
+                    </div>
+                    <div class="body1">
+                        <div class="calories">
+                            <h4> Calories</h4>
+                            <label for="" id="cal"></label>
+                        </div>
+                        <div class="calories">
+                            <h4> Carbohydrates</h4>
+                            <label for="" id="carbo"></label>
+                        </div>
+                        <div class="calories">
+                            <h4>Protein</h4>
+                            <label for="" id="protein"></label>
+                        </div>
+                        <div class="calories">
+                            <h4>Fat</h4>
+                            <label for="" id="fat"></label>
+                        </div>
+                        <div class="calories">
+                            <h4>Fiber</h4>
+                            <label for="" id="fiber"></label>
+                        </div>
+                        <div class="calories">
+                            <h4> Vitamin C</h4>
+                            <label for="" id="vitamin"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="health-benifits">
+                    <div class="head1">
+                        <h1>HEALTH BENIFITS</h1>
+                    </div>
+                    <div class="body2">
+                        <h3 class="body1-h31"></h3>
+                        <h3 class="body1-h32"></h3>
+                        <h3 class="body1-h33"></h3>
+                    </div>
+                </div>
+                <div class="cultivation">
+                    <div class="head1">
+                        <h1>CULTIVAION</h1>
+                    </div>
+                    <div class="body3">
+                        <div class="climate">
+                            <h3>Climate :</h3>
+                            <label for="" id="climate"></label>
+                        </div>
+                        <hr>
+                        <div class="soil">
+                            <h3>Soil :</h3>
+                            <label for="" id="soil"></label>
+                        </div>
+                        <hr>
+                        <div class="soil">
+                            <h3>Harvesting <br> Season :</h3>
+                            
+                            <label for="" id="harvesting"></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="nutrition">
+                    <div class="head1">
+                        <h1>CULINARY USES</h1>
+                    </div>
+                    <div class="body1">
+                        <h4 id="CU1"></h4>
+                        <h4 id="CU2"></h4>
+                        <h4 id="CU3"></h4>
+                        <h4 id="CU4"></h4>
+                        <h4 id="CU5"></h4>
+                    </div>
+                </div>
+                <div class="nutrition">
+                    <div class="head1">
+                        <h1>HISTORY</h1>
+                    </div>
+                    <div class="body1">
+                        <p id="para"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        let input = document.querySelector("input")
+        let datalist = document.querySelector("datalist")
+        let button = document.querySelector("#search")
+        let image = document.querySelector(".main-image")
+
+        let Name = document.querySelector(".Name")
+        let scientificName = document.querySelector(".scientificName")
+        let color = document.querySelector(".color")
+        let h3 = document.querySelector(".col")
+        let span = document.querySelector("#color-dot")
+
+        let family = document.querySelector(".family")
+        let origin = document.querySelector(".origin")
+        let taste = document.querySelector(".taste")
+        let producingPlant = document.querySelector(".producing-plant")
+
+        let cal = document.querySelector("#cal")
+        let carbo = document.querySelector("#carbo")
+        let protein = document.querySelector("#protein")
+        let fat = document.querySelector("#fat")
+        let fiber = document.querySelector("#fiber")
+        let vitamin = document.querySelector("#vitamin")
+
+        let body1 = document.querySelector(".body1-h31")
+        let body2 = document.querySelector(".body1-h32")
+        let body3 = document.querySelector(".body1-h33")
+
+        let climate = document.querySelector("#climate")
+        let soil = document.querySelector("#soil")
+        let harvesting = document.querySelector("#harvesting")
+
+        let CU1 = document.querySelector("#CU1")
+        let CU2 = document.querySelector("#CU2")
+        let CU3 = document.querySelector("#CU3")
+        let CU4 = document.querySelector("#CU4")
+        let CU5 = document.querySelector("#CU5")
+
+        let para = document.querySelector("#para")
+        fetch("assets/JS/db_updated.json")
+            .then(response => response.json())
+            .then(data => {
+                // console.log(data); // All fruits
+                let fruit = data.fruits;
+                // console.log(fruit);
+                button.addEventListener("click", function () {
+                    let fruitName = input.value;
+                    let selectedFruit = fruit.find(fruit => fruit.name === fruitName);
+                    if (selectedFruit) {
+                        image.src = selectedFruit.image;
+                    } else {
+                        alert("Fruit not found!");
+                    }
+                    Name.innerHTML = selectedFruit.name;
+                    if (selectedFruit.name === "Indian Gooseberry (Amla)"){
+                        Name.style.fontSize = "40px";
+                    } else {
+                        Name.style.fontSize = "80px";   
+                    };
+                    scientificName.innerHTML = selectedFruit.scientificName;
+                    // color.style.backgroundColor = selectedFruit.color[0];
+                    h3.innerHTML = selectedFruit.color[0];
+                    span.style.backgroundColor = selectedFruit.color[0];
+
+                    family.innerHTML = selectedFruit.family;
+                    origin.innerHTML = selectedFruit.origin;
+                    taste.innerHTML = selectedFruit.taste;
+                    producingPlant.innerHTML = selectedFruit.producingPlant;
+
+                    cal.innerHTML = selectedFruit.nutrition.calories;
+                    carbo.innerHTML = selectedFruit.nutrition.carbohydrates;
+                    protein.innerHTML = selectedFruit.nutrition.protein;
+                    fat.innerHTML = selectedFruit.nutrition.fat;
+                    fiber.innerHTML = selectedFruit.nutrition.fiber;
+                    vitamin.innerHTML = selectedFruit.nutrition.vitaminC;
+
+                    
+                    body1.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${selectedFruit.healthBenefits[0]}`;
+                    body2.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${selectedFruit.healthBenefits[1]}`;
+                    body3.innerHTML = `<i class="fa-solid fa-circle-check"></i> ${selectedFruit.healthBenefits[2]}`;
+
+                    climate.innerHTML = selectedFruit.cultivation.climate;
+                    soil.innerHTML = selectedFruit.cultivation.soil;
+                    harvesting.innerHTML = selectedFruit.cultivation.harvestingSeason;
+
+                    CU1.innerHTML = selectedFruit.culinaryUses[0];
+                    CU2.innerHTML = selectedFruit.culinaryUses[1];
+                    CU3.innerHTML = selectedFruit.culinaryUses[2];
+                    CU4.innerHTML = selectedFruit.culinaryUses[3];
+                    CU5.innerHTML = selectedFruit.culinaryUses[4];
+
+                    para.innerHTML = selectedFruit.history
+                });
+
+                fruit.forEach(element => {
+                    // console.log(element);
+
+                    for (let key in element) {
+                        console.log(key);
+                        if (key === "id") {
+                            let id = element[key];
+                            console.log(id);
+                        }
+                        else if (key === "name") {
+                            let name = element[key];
+                            console.log(name);
+                            let option = document.createElement("option");
+                            option.value = name;
+                            datalist.appendChild(option);
+                        }
+                        else if (key === "scientificName") {
+                            let scientificName = element[key];
+                            console.log(scientificName);
+                        }
+                        else if (key === "family") {
+                            let family = element[key];
+                            console.log(family);
+                        }
+                        else if (key === "origin") {
+                            let origin = element[key];
+                            console.log(origin);
+                        }
+                        else if (key === "color") {
+                            let color = element[key];
+                            color.forEach(element1 => {
+                                console.log(element1)
+                            });
+                        }
+                        else if (key === "taste") {
+                            let taste = element[key];
+                            console.log(taste);
+                        }
+                        else if (key === "nutrition") {
+                            let nutrition = element[key];
+                            for (let key1 in nutrition) {
+                                if (key1 === "calories") {
+                                    let calories = nutrition[key1];
+                                    console.log(calories);
+                                }
+                                else if (key1 === "carbohydrates") {
+                                    let carbohydrates = nutrition[key1];
+                                    console.log(carbohydrates);
+                                }
+                                else if (key1 === "protein") {
+                                    let protein = nutrition[key1];
+                                    console.log(protein);
+                                }
+                                else if (key1 === "fat") {
+                                    let fat = nutrition[key1];
+                                    console.log(fat);
+                                }
+                                else if (key1 === "fiber") {
+                                    let fiber = nutrition[key1];
+                                    console.log(fiber);
+                                }
+                                else if (key1 === "vitaminC") {
+                                    let vitaminC = nutrition[key1];
+                                    console.log(vitaminC);
+                                }
+                            }
+                        }
+                        else if (key === "healthBenefits") {
+                            let healthBenefits = element[key];
+                            healthBenefits.forEach(element2 => {
+                                console.log(element2);
+                            });
+                        }
+                        else if (key === "cultivation") {
+                            let cultivation = element[key];
+                            for (let key2 in cultivation) {
+                                if (key2 === "climate") {
+                                    let climate = cultivation[key2];
+                                    console.log(climate);
+                                }
+                                else if (key2 === "soil") {
+                                    let soil = cultivation[key2];
+                                    console.log(soil);
+                                }
+                                else if (key2 === "harvestingSeason") {
+                                    let harvestingSeason = cultivation[key2];
+                                    console.log(harvestingSeason);
+                                }
+                            }
+                        }
+                        else if (key === "producingPlant") {
+                            let producingPlant = element[key];
+                            console.log(producingPlant)
+                        }
+                        else if (key === "culinaryUses") {
+                            let culinaryUses = element[key];
+                            culinaryUses.forEach(element3 => {
+                                console.log(element3);
+                            });
+                        }
+                        else if (key === "history") {
+                            let history = element[key];
+                            console.log(history);
+                        }
+                        else if (key === "image") {
+                            let image = element[key];
+                            console.log(image);
+                        }
+                    }
+
+                });
+            });
+    </script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalDex | Animal Rescuer</title>
+    <link rel="icon" href="assets/images/logo/paw.png">
+    <link rel="stylesheet" href="assets/css/Animal_dex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-paw"></i>
+            </div>
+
+            <div class="logo-text">
+                <h2>ANIMAL RESCUER</h2>
+                <p>Heal • Protect • Give Hope</p>
+            </div>
+        </div>
+
+        <div class="title">
+            <h1>ANIMALDEX</h1>
+            <p>Know Them • Understand Them • Protect Them</p>
+        </div>
+
+        <nav class="menu">
+            <a href="Animal_rescuer.html">
+                <i class="fa-solid fa-house"></i>
+                HOME
+            </a>
+
+            <a href="Emergency.html">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                EMERGENCY
+            </a>
+
+            <a href="#">
+                <i class="fa-solid fa-paw"></i>
+                ANIMALDEX
+            </a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="search-section">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input id="animal-search" list="animal-list" type="text" placeholder="Search for an animal...">
+
+                <datalist id="animal-list"></datalist>
+
+                <button id="search-btn">
+                    SEARCH
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section class="animal-main">
+
+            <div class="animal-image-card">
+
+                <div class="image-badge">
+                    <i class="fa-solid fa-paw"></i>
+                    ANIMALDEX
+                </div>
+
+                <img id="animal-image" src="assets/images/animals/dog.jpg" alt="Animal">
+
+                <div class="image-bottom">
+                    <span>
+                        <i class="fa-solid fa-heart"></i>
+                        Every Life Matters
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="animal-content">
+
+                <div class="animal-heading">
+
+                    <div>
+                        <span class="animal-number" id="animal-id">
+                            #001
+                        </span>
+
+                        <h1 id="animal-name">
+                            Dog
+                        </h1>
+
+                        <h2 id="scientific-name">
+                            Canis lupus familiaris
+                        </h2>
+                    </div>
+
+                    <div class="animal-paw">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+
+                </div>
+
+
+                <div class="basic-info">
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-dna"></i>
+                        <div>
+                            <span>Family</span>
+                            <strong id="family">Canidae</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <div>
+                            <span>Origin</span>
+                            <strong id="origin">Worldwide</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-house"></i>
+                        <div>
+                            <span>Habitat</span>
+                            <strong id="habitat">Domestic environments</strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div>
+                            <span>Diet</span>
+                            <strong id="diet">Omnivorous</strong>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="quick-info">
+
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Lifespan</span>
+                        <strong id="lifespan">10–13 years</strong>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-ruler-vertical"></i>
+                        <span>Height</span>
+                        <strong id="height">15–110 cm</strong>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-weight-scale"></i>
+                        <span>Weight</span>
+                        <strong id="weight">1.5–90 kg</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="details-grid">
+
+            <div class="detail-card appearance-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-eye"></i>
+                    <h2>Appearance</h2>
+                </div>
+
+                <p id="appearance"></p>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Colors</h2>
+                </div>
+
+                <div class="color-list" id="colors"></div>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h2>Abilities</h2>
+                </div>
+
+                <div class="tag-list" id="abilities"></div>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-tree"></i>
+                    <h2>Living Environment</h2>
+                </div>
+
+                <div class="tag-list" id="environment"></div>
+
+            </div>
+
+
+            <div class="detail-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-comments"></i>
+                    <h2>Communication</h2>
+                </div>
+
+                <div class="tag-list" id="communication"></div>
+
+            </div>
+
+
+            <div class="detail-card facts-card">
+
+                <div class="card-heading">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Interesting Facts</h2>
+                </div>
+
+                <div class="fact-list" id="facts"></div>
+
+            </div>
+
+        </section>
+
+
+        <section class="breeds-section">
+
+            <div class="section-heading">
+
+                <span>
+                    <i class="fa-solid fa-paw"></i>
+                    FAMOUS BREEDS
+                </span>
+
+                <h2>Three Famous Breeds</h2>
+
+                <p>
+                    Explore some well-known breeds associated with this animal.
+                </p>
+
+            </div>
+
+
+            <div class="breed-grid" id="breeds"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div>
+            <i class="fa-solid fa-paw"></i>
+            <strong>ANIMAL RESCUER</strong>
+        </div>
+
+        <p>Every Life Matters. You Can Make a Difference.</p>
+
+    </footer>
+
+
+    <script src="assets/js/AnimalDex.js"></script>
+
+</body>
+
+</html>

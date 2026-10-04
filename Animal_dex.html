@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rescure</title>
+    <link rel="icon" href="assets/images/icon/WhatsApp Image 2026-08-24 at 21.26.29.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/Animal_rescuer.css">
+    <link rel="stylesheet" href="assets/css/emergency.css">
+    <link rel="stylesheet" href="assets/css/Animal_dex.css">
+    <script src="assets/js/JavaScript/emergency.js" defer> </script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fa-solid fa-paw"></i></h1>
+            </div>
+            <div class="heading">
+                <h1>Animal Rescuer</h1>
+                <p>Heal <i class="fa-solid fa-circle-dot"></i> Protect <i class="fa-solid fa-circle-dot"></i> Give Hope
+                </p>
+            </div>
+        </div>
+        <div class="menu">
+            <h3> <a href="Animal_rescuer.html"> Home </a></h3>
+            <h3> <a href="Emergency.html"> Emergency </a></h3>
+            <h3><a href="Animal_dex.html">AnimalDex </a></h3>
+            <h3><a href="">Find Help</a></h3>
+            <h3><a href="">Adopt</a></h3>
+            <h3><a href="">About</a></h3>
+        </div>
+        <div class="log-in">
+            <button class="login">Login / Sign Up</button>
+        </div>
+    </div>
+    <main>
+        <section class="search-section">
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="animal-search" list="animal-list" type="text" placeholder="Search for an animal...">
+                <datalist id="animal-list"></datalist>
+                <button id="search-btn">
+                    SEARCH
+                </button>
+            </div>
+        </section>
+        <section class="animal-main">
+            <div class="animal-image-card">
+                <div class="image-badge">
+                    <i class="fa-solid fa-paw"></i>
+                    ANIMALDEX
+                </div>
+                <img id="animal-image" src="assets/images/animal_dex/1.jpg" alt="Animal">
+                <div class="image-bottom">
+                    <span>
+                        <i class="fa-solid fa-heart"></i>
+                        Every Life Matters
+                    </span>
+                </div>
+
+            </div>
+            <div class="animal-content">
+                <div class="animal-heading">
+                    <div>
+                        <!-- <span class="animal-number" id="animal-id">
+                            #001
+                        </span> -->
+                        <h1 id="animal-name">
+                            Name
+                        </h1>
+                        <h2 id="scientific-name">
+                            Binomial Name
+                        </h2>
+                    </div>
+                    <div class="animal-paw">
+                        <i class="fa-solid fa-paw"></i>
+                    </div>
+                </div>
+                <div class="basic-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-dna"></i>
+                        <div>
+                            <span>Family</span>
+                            <strong id="family"></strong>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <div>
+                            <span>Origin</span>
+                            <strong id="origin"></strong>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-house"></i>
+                        <div>
+                            <span>Habitat</span>
+                            <strong id="habitat"></strong>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fa-solid fa-utensils"></i>
+                        <div>
+                            <span>Diet</span>
+                            <strong id="diet"></strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-info">
+
+                    <div>
+                        <i class="fa-solid fa-clock"></i>
+                        <span>Lifespan</span>
+                        <strong id="lifespan"></strong>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ruler-vertical"></i>
+                        <span>Height</span>
+                        <strong id="height"></strong>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-weight-scale"></i>
+                        <span>Weight</span>
+                        <strong id="weight"></strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="details-grid">
+            <div class="detail-card appearance-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-eye"></i>
+                    <h2>Appearance</h2>
+                </div>
+                <p id="appearance"></p>
+            </div>
+            <div class="detail-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Colors</h2>
+                </div>
+                <div class="color-list" id="colors"></div>
+            </div>
+            <div class="detail-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h2>Abilities</h2>
+                </div>
+                <div class="tag-list" id="abilities"></div>
+            </div>
+            <div class="detail-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-tree"></i>
+                    <h2>Living Environment</h2>
+                </div>
+                <div class="tag-list" id="environment"></div>
+            </div>
+            <div class="detail-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-comments"></i>
+                    <h2>Communication</h2>
+                </div>
+                <div class="tag-list" id="communication"></div>
+            </div>
+            <div class="detail-card facts-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Interesting Facts</h2>
+                </div>
+                <div class="fact-list" id="facts"></div>
+            </div>
+            <div class="detail-card appearance-card">
+                <div class="card-heading">
+                    <i class="fa-solid fa-utensils"></i>    
+                    <h2>Food Item Can Feed</h2>
+                </div>
+                <p id="food-item">
+                    <p></p>
+                    <span></span>
+                </p>
+            </div>
+        </section>
+        <section class="breeds-section">
+            <div class="section-heading">
+                <span>
+                    <i class="fa-solid fa-paw"></i>
+                    FAMOUS BREEDS
+                </span>
+                <h2>Three Famous Breeds</h2>
+                <p>
+                    Explore some well-known breeds associated with this animal.
+                </p>
+            </div>
+            <div class="breed-grid" id="breeds">
+
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <h2>Animal Rescuer</h2>
+                <p class="footer-tagline">
+                    Heal <span>•</span> Protect <span>•</span> Give Hope
+                </p>
+                <p class="footer-description">
+                    Helping people respond safely to animals in need by
+                    providing guidance, emergency support and useful resources.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="Animal_rescuer.html">Home</a>
+                <a href="Emergency.html">Emergency</a>
+                <a href="#">AnimalDex</a>
+                <a href="#">Find Help</a>
+                <a href="#">Adopt</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="footer-links">
+                <h3>Emergency Help</h3>
+                <a href="#">First Aid Guide</a>
+                <a href="#">Find Veterinary Hospital</a>
+                <a href="#">Contact Rescue Team</a>
+                <a href="#">Forest Department</a>
+                <a href="#">Wildlife Emergency</a>
+                <a href="#">Report an Emergency</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Need Help?</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <strong>Emergency</strong>
+                        <p>Get immediate assistance</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <strong>Nearby Help</strong>
+                        <p>Find help near your location</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <strong>Email Us</strong>
+                        <p>support@animalrescuer.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/JavaScript/AnimalDex.js"></script>
+</body>

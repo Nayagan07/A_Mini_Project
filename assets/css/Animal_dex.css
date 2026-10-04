@@ -1,0 +1,668 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --cream: #f8f5f0;
+  --cream-dark: #eee7dc;
+  --border: #d9d1c5;
+  --card: #fffdf9;
+
+  --green: #2fa866;
+  --green-dark: #123c2d;
+  --green-deep: #09271d;
+  --green-light: hsl(138, 37%, 93%);
+  --cream: #f6f7f2;
+  --white: #ffffff;
+  --text: #14251e;
+  --muted: #64736d;
+  --red: #e84b4b;
+  --radius: 22px;
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.search-section {
+  width: 100%;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  max-width: 850px;
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 50px;
+  padding: 6px 8px 6px 22px;
+}
+
+.search-box > i {
+  color: var(--green);
+  font-size: 18px;
+}
+
+.search-box input {
+  flex: 1;
+  height: 48px;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+}
+
+.search-box button {
+  border: none;
+  border-radius: 35px;
+  padding: 14px 25px;
+  background: var(--green-dark);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: var(--green);
+  transform: translateY(-2px);
+}
+
+.animal-main {
+  width: 90%;
+  height: 70vh;
+  max-width: 1450px;
+  margin: 0 auto 30px;
+  display: grid;
+  grid-template-columns: 42% 58%;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  overflow: hidden;
+}
+
+.animal-image-card {
+  position: relative;
+  min-height: 500px;
+  background: var(--cream-dark);
+  overflow: hidden;
+}
+
+.animal-image-card img {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  display: block;
+  object-fit: cover;
+}
+
+.image-badge {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  z-index: 2;
+  padding: 9px 17px;
+  border-radius: 30px;
+  background: rgba(36, 72, 59, 0.92);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.image-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 25px 20px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
+  color: white;
+}
+
+.image-bottom span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.image-bottom i {
+  color: #eabf8a;
+  margin-right: 5px;
+}
+
+.animal-content {
+  padding: 45px 45px 35px;
+}
+
+.animal-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 22px;
+}
+
+.animal-number {
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.animal-heading h1 {
+  margin-top: 5px;
+  font-size: 64px;
+  color: var(--brown);
+  line-height: 1;
+}
+
+.animal-heading h2 {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.animal-paw {
+  width: 65px;
+  height: 65px;
+  display: grid;
+  place-items: center;
+  border-radius: 20px;
+  background: #edf2ed;
+  color: var(--green);
+  font-size: 28px;
+}
+
+.basic-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px;
+  border-radius: 15px;
+  background: #f7f4ee;
+}
+
+.info-item > i {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: #e6eee8;
+  color: var(--green);
+}
+
+.info-item span,
+.quick-info span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.info-item strong {
+  font-size: 13px;
+  line-height: 1.4;
+  display: block;
+}
+
+.quick-info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.quick-info > div {
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.quick-info i {
+  color: var(--brown);
+  font-size: 18px;
+  display: block;
+  margin-bottom: 7px;
+}
+
+.quick-info strong {
+  font-size: 14px;
+}
+
+.details-grid {
+  width: 90%;
+  max-width: 1450px;
+  margin: 0 auto 35px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.detail-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 23px;
+  min-height: 210px;
+  box-shadow: 0 7px 20px rgba(72, 59, 45, 0.05);
+}
+
+.appearance-card {
+  grid-column: span 2;
+}
+
+.card-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.card-heading i {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  background: #e7efe9;
+  color: var(--green);
+  border-radius: 11px;
+}
+
+.card-heading h2 {
+  font-size: 19px;
+  color: var(--brown);
+}
+
+.detail-card p {
+  color: #535b56;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.color-item {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  background: #f5f1ea;
+  border-radius: 25px;
+  font-size: 12px;
+  border: 1px solid #e3dbcf;
+}
+
+.color-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.tag {
+  padding: 9px 12px;
+  border-radius: 10px;
+  background: #edf3ee;
+  color: var(--green-dark);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.fact-list {
+  display: grid;
+  gap: 10px;
+}
+
+.fact {
+  display: flex;
+  gap: 9px;
+  color: #535b56;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.fact i {
+  color: #b08250;
+  margin-top: 3px;
+}
+
+.breeds-section {
+  width: 90%;
+  max-width: 1450px;
+  margin: 0 auto 50px;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-heading > span {
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  color: var(--brown);
+  font-size: 32px;
+  margin-top: 7px;
+}
+
+.section-heading p {
+  color: var(--muted);
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.breed-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.breed-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.breed-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(72, 59, 45, 0.1);
+}
+
+.breed-number {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #e9e2d7;
+}
+
+.breed-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  background: #e8f0ea;
+  color: var(--green);
+  font-size: 21px;
+}
+
+.breed-card h3 {
+  color: var(--brown);
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.breed-origin {
+  display: block;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.breed-card p {
+  color: #606762;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.footer {
+  background: var(--green-deep);
+  color: white;
+  min-height: 80px;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer strong {
+  margin-left: 7px;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  color: #d7e1da;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 18px 3%;
+  }
+
+  .title h1 {
+    font-size: 36px;
+  }
+
+  .menu {
+    gap: 14px;
+  }
+
+  .menu a {
+    font-size: 11px;
+  }
+
+  .animal-main {
+    grid-template-columns: 40% 60%;
+  }
+
+  .animal-heading h1 {
+    font-size: 52px;
+  }
+
+  .animal-content {
+    padding: 35px;
+  }
+
+  .details-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .appearance-card {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .title h1 {
+    font-size: 38px;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .animal-main {
+    grid-template-columns: 1fr;
+  }
+
+  .animal-image-card,
+  .animal-image-card img {
+    min-height: 400px;
+    height: 400px;
+  }
+
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .appearance-card {
+    grid-column: span 1;
+  }
+
+  .breed-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  .title p {
+    font-size: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .search-section {
+    width: 94%;
+  }
+
+  .search-box {
+    padding-left: 15px;
+  }
+
+  .search-box button {
+    padding: 12px 17px;
+    font-size: 11px;
+  }
+
+  .animal-main,
+  .details-grid,
+  .breeds-section {
+    width: 94%;
+  }
+
+  .animal-image-card,
+  .animal-image-card img {
+    min-height: 300px;
+    height: 300px;
+  }
+
+  .animal-content {
+    padding: 25px 20px;
+  }
+
+  .animal-heading h1 {
+    font-size: 42px;
+  }
+
+  .animal-heading h2 {
+    font-size: 17px;
+  }
+
+  .animal-paw {
+    width: 50px;
+    height: 50px;
+    font-size: 21px;
+  }
+
+  .basic-info {
+    grid-template-columns: 1fr;
+  }
+
+  .quick-info {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-card {
+    padding: 18px;
+  }
+
+  .section-heading h2 {
+    font-size: 26px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .title h1 {
+    font-size: 25px;
+  }
+
+  .animal-heading h1 {
+    font-size: 35px;
+  }
+
+  .animal-heading h2 {
+    font-size: 14px;
+  }
+
+  .search-box {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 8px;
+  }
+
+  .search-box > i {
+    margin-left: 10px;
+  }
+
+  .search-box input {
+    min-width: 150px;
+  }
+
+  .search-box button {
+    width: 100%;
+  }
+}

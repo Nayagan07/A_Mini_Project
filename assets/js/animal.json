@@ -1,0 +1,382 @@
+{
+    "animals": [
+  {
+    "id": 1,
+    "name": "Dog",
+    "scientificName": "Canis lupus familiaris",
+    "family": "Canidae",
+    "origin": "Worldwide",
+    "color": [
+      "Black",
+      "White",
+      "Brown",
+      "Golden",
+      "Grey",
+      "Cream",
+      "Tan"
+    ],
+    "habitat": "Domestic",
+    "diet": "Omnivore",
+    "lifespan": "10–13 years",
+    "height": "15–110 cm",
+    "weight": "1.5–90 kg",
+    "appearance": "Four-legged mammal with fur, a tail, two ears, a strong sense of smell, and different body shapes depending on breed",
+    "abilities": [
+      "Strong sense of smell",
+      "Excellent hearing",
+      "Fast running",
+      "Can learn commands",
+      "Can recognize familiar people",
+      "Strong learning and problem-solving ability",
+      "Can be trained for specific tasks"
+    ],
+    "livingEnvironment": [
+      "Homes",
+      "Apartments",
+      "Farms",
+      "Shelters",
+      "Rural areas",
+      "Urban areas"
+    ],
+    "communication": [
+      "Barking",
+      "Whining",
+      "Growling",
+      "Body language",
+      "Tail movement",
+      "Facial expressions",
+      "Ear position"
+    ],
+    "interestingFacts": [
+      "Dogs have an extremely strong sense of smell",
+      "Dogs can recognize familiar people by their scent and voice",
+      "There are hundreds of recognized dog breeds around the world",
+      "Dogs use their ears, tail, posture, and facial expressions to communicate",
+      "Dogs have lived alongside humans for thousands of years",
+      "Some dogs are trained to assist people with disabilities",
+      "Some breeds are trained for search and rescue operations"
+    ],
+    "healthyFood": [
+      {
+        "name": "Complete Dog Food",
+        "benefit": "Protein, Vitamins, Minerals"
+      },
+      {
+        "name": "Cooked Chicken",
+        "benefit": "Protein"
+      },
+      {
+        "name": "Cooked Fish",
+        "benefit": "Protein, Omega-3"
+      },
+      {
+        "name": "Cooked Eggs",
+        "benefit": "Protein, Vitamins"
+      },
+      {
+        "name": "Carrots",
+        "benefit": "Fiber, Vitamin A"
+      }
+    ],
+    "famousBreeds": [
+      {
+        "name": "Labrador Retriever",
+        "origin": "Canada",
+        "characteristic": "Friendly, intelligent, and highly trainable"
+      },
+      {
+        "name": "German Shepherd",
+        "origin": "Germany",
+        "characteristic": "Intelligent, strong, loyal, and highly trainable"
+      },
+      {
+        "name": "Golden Retriever",
+        "origin": "Scotland",
+        "characteristic": "Friendly, gentle, intelligent, and loyal"
+      }
+    ],
+    "image": "assets/images/animals/dog.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cow",
+    "scientificName": "Bos taurus",
+    "family": "Bovidae",
+    "origin": "Worldwide",
+    "color": [
+      "White",
+      "Black",
+      "Brown",
+      "Grey",
+      "Red",
+      "Spotted"
+    ],
+    "habitat": "Grasslands",
+    "diet": "Herbivore",
+    "lifespan": "15–20 years",
+    "height": "100–150 cm",
+    "weight": "400–1000 kg",
+    "appearance": "Large four-legged mammal with a broad body, hooves, horns, tail, and short to medium-length hair",
+    "abilities": [
+      "Strong sense of smell",
+      "Excellent hearing",
+      "Strong digestive system",
+      "Can recognize familiar people",
+      "Good memory",
+      "Can walk long distances",
+      "Strong social behavior"
+    ],
+    "livingEnvironment": [
+      "Farms",
+      "Grasslands",
+      "Pastures",
+      "Rural areas",
+      "Shelters",
+      "Open fields"
+    ],
+    "communication": [
+      "Mooing",
+      "Lowing",
+      "Body language",
+      "Tail movement",
+      "Ear position",
+      "Facial expressions"
+    ],
+    "interestingFacts": [
+      "Cows have four compartments in their stomach",
+      "Cows chew their food again as cud",
+      "Cows have a strong sense of smell",
+      "Cows can recognize other cows and familiar people",
+      "Cows are social animals",
+      "Cows can sleep while standing",
+      "Cows communicate using sounds and body language"
+    ],
+    "healthyFood": [
+      {
+        "name": "Fresh Grass",
+        "benefit": "Fiber, Minerals"
+      },
+      {
+        "name": "Hay",
+        "benefit": "Fiber"
+      },
+      {
+        "name": "Alfalfa",
+        "benefit": "Protein, Calcium"
+      },
+      {
+        "name": "Corn",
+        "benefit": "Carbohydrates, Energy"
+      },
+      {
+        "name": "Mineral Feed",
+        "benefit": "Calcium, Phosphorus"
+      }
+    ],
+    "famousBreeds": [
+      {
+        "name": "Holstein Friesian",
+        "origin": "Netherlands",
+        "characteristic": "High milk production and distinctive black-and-white coat"
+      },
+      {
+        "name": "Jersey",
+        "origin": "United Kingdom",
+        "characteristic": "Small-sized breed with rich milk"
+      },
+      {
+        "name": "Gir",
+        "origin": "India",
+        "characteristic": "Hardy breed known for heat tolerance and milk production"
+      }
+    ],
+    "image": "assets/images/animals/cow.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pigeon",
+    "scientificName": "Columba livia",
+    "family": "Columbidae",
+    "origin": "Europe, North Africa and Asia",
+    "color": [
+      "Grey",
+      "White",
+      "Black",
+      "Brown",
+      "Blue"
+    ],
+    "habitat": "Urban",
+    "diet": "Granivore",
+    "lifespan": "3–6 years",
+    "height": "30–35 cm",
+    "weight": "250–380 g",
+    "appearance": "Small bird with a rounded body, short neck, wings, feathers, two legs, and a short beak",
+    "abilities": [
+      "Flying",
+      "Strong navigation ability",
+      "Good eyesight",
+      "Can recognize locations",
+      "Fast movement",
+      "Can recognize familiar people",
+      "Strong homing ability"
+    ],
+    "livingEnvironment": [
+      "Cities",
+      "Buildings",
+      "Cliffs",
+      "Parks",
+      "Bridges",
+      "Urban areas"
+    ],
+    "communication": [
+      "Cooing",
+      "Wing movement",
+      "Body posture",
+      "Head movement",
+      "Feather display"
+    ],
+    "interestingFacts": [
+      "Pigeons have excellent navigation abilities",
+      "Pigeons can recognize familiar places",
+      "Pigeons can see a wide range of colors",
+      "Pigeons have been used to carry messages",
+      "Pigeons can find their way home from long distances",
+      "Pigeons live successfully in many cities",
+      "Pigeons build simple nests using small materials"
+    ],
+    "healthyFood": [
+      {
+        "name": "Millet",
+        "benefit": "Carbohydrates, Protein"
+      },
+      {
+        "name": "Corn",
+        "benefit": "Carbohydrates, Energy"
+      },
+      {
+        "name": "Wheat",
+        "benefit": "Carbohydrates, Protein"
+      },
+      {
+        "name": "Peas",
+        "benefit": "Protein, Fiber"
+      },
+      {
+        "name": "Sunflower Seeds",
+        "benefit": "Protein, Healthy Fats"
+      }
+    ],
+    "famousBreeds": [
+      {
+        "name": "Homing Pigeon",
+        "origin": "Europe",
+        "characteristic": "Excellent navigation and homing ability"
+      },
+      {
+        "name": "King Pigeon",
+        "origin": "United States",
+        "characteristic": "Large body and commonly kept as a domestic breed"
+      },
+      {
+        "name": "Fantail Pigeon",
+        "origin": "India",
+        "characteristic": "Distinctive fan-shaped tail feathers"
+      }
+    ],
+    "image": "assets/images/animals/pigeon.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Lion",
+    "scientificName": "Panthera leo",
+    "family": "Felidae",
+    "origin": "Africa and India",
+    "color": [
+      "Golden",
+      "Yellow",
+      "Brown",
+      "Tan",
+      "Cream"
+    ],
+    "habitat": "Savanna",
+    "diet": "Carnivore",
+    "lifespan": "10–14 years",
+    "height": "90–120 cm",
+    "weight": "120–250 kg",
+    "appearance": "Large muscular cat with four legs, a long tail, powerful jaws, sharp claws, and a mane in adult males",
+    "abilities": [
+      "Powerful hunting",
+      "Fast running",
+      "Strong jaws",
+      "Excellent night vision",
+      "Good hearing",
+      "Strong sense of smell",
+      "Cooperative hunting"
+    ],
+    "livingEnvironment": [
+      "Savannas",
+      "Grasslands",
+      "Woodlands",
+      "Open plains",
+      "Protected reserves"
+    ],
+    "communication": [
+      "Roaring",
+      "Growling",
+      "Grunting",
+      "Body language",
+      "Tail movement",
+      "Facial expressions"
+    ],
+    "interestingFacts": [
+      "Lions are the only big cats that commonly live in social groups",
+      "A group of lions is called a pride",
+      "Male lions usually have a large mane",
+      "Lions can roar from several kilometers away",
+      "Lions spend many hours resting",
+      "Lions hunt both individually and cooperatively",
+      "The Asiatic lion population survives in the wild in India"
+    ],
+    "healthyFood": [
+      {
+        "name": "Fresh Meat",
+        "benefit": "Protein, Iron"
+      },
+      {
+        "name": "Chicken",
+        "benefit": "Protein"
+      },
+      {
+        "name": "Beef",
+        "benefit": "Protein, Iron"
+      },
+      {
+        "name": "Goat Meat",
+        "benefit": "Protein, Iron"
+      },
+      {
+        "name": "Organ Meat",
+        "benefit": "Protein, Vitamins, Minerals"
+      }
+    ],
+    "famousBreeds": [
+      {
+        "name": "Asiatic Lion",
+        "origin": "India",
+        "characteristic": "Smaller mane and distinctive belly fold"
+      },
+      {
+        "name": "Barbary Lion",
+        "origin": "North Africa",
+        "characteristic": "Historically known for its large mane"
+      },
+      {
+        "name": "Masai Lion",
+        "origin": "East Africa",
+        "characteristic": "Large-bodied lion adapted to savanna environments"
+      }
+    ],
+    "image": "assets/images/animals/lion.jpg"
+  }
+]
+}

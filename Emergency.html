@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Rescure</title>
+    <link rel="icon" href="assets/images/icon/WhatsApp Image 2026-08-24 at 21.26.29.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <link rel="stylesheet" href="assets/css/Animal_rescuer.css">
+    <link rel="stylesheet" href="assets/css/emergency.css">
+    <script src="assets/js/JavaScript/emergency.js" defer></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fa-solid fa-paw"></i></h1>
+            </div>
+            <div class="heading">
+                <h1>Animal Rescuer</h1>
+                <p>Heal <i class="fa-solid fa-circle-dot"></i> Protect <i class="fa-solid fa-circle-dot"></i> Give Hope
+                </p>
+            </div>
+        </div>
+        <div class="menu">
+            <h3> <a href="Animal_rescuer.html"> Home </a></h3>
+            <h3> <a href="Emergency.html"> Emergency </a></h3>
+            <h3><a href="Animal_dex.html">AnimalDex </a></h3>
+            <h3><a href="">Find Help</a></h3>
+            <h3><a href="">Adopt</a></h3>
+            <h3><a href="">About</a></h3>
+        </div>
+        <div class="log-in">
+            <button class="login">Login / Sign Up</button>
+        </div>
+    </div>
+
+    <div class="identification">
+        <div class="header2">
+            <h1> <i class="fa-solid fa-paw"></i> Animal Identification</h1>
+            <p>Identify an animal using an image or search directly from our animal database.</p>
+        </div>
+        <div class="section">
+            <div class="left">
+                <div class="camera"> 
+                    <img src="" alt="">
+                    <p>image uploader</p>
+                    <h1> <i class="fa-solid fa-camera"></i> Identifying by image</h1>
+                    <!-- <div class="upload-section">
+                        <input type="file" id="animalImage" accept="image/*" >---
+                        <input type="image">---
+                        <button id="browseImage"> <i class="fa-solid fa-folder-open"></i> Browse Images</button>
+                        <small>JPG, PNG or WEBP • Max 10 MB</small>
+                    </div> -->
+                    <div class="upload-section">
+
+                        <input type="file" id="animalImage" accept="image/jpeg,image/png,image/webp" hidden>
+
+                        <button type="button" id="browseImage">
+                            <i class="fa-solid fa-folder-open"></i>
+                            Browse Images
+                        </button>
+
+                        <small>JPG, PNG or WEBP • Max 10 MB</small>
+
+                    </div>
+                </div>
+                <div class="button">
+                    <button> <i class="fa-solid fa-cloud-arrow-up"></i> Upload an animal image</button>
+                    <p> Upload a clear image of the animal to identify its species. </p>
+                    <!-- <input type="file" id="animalImage" accept="image/*"> -->
+                </div>
+                <div class="result">
+                    <i class="fa-solid fa-circle-check"></i> Identification Result
+                </div>
+                <div class="result-content">
+                    <div class="result-image"> <img src="" alt="Identified animal"> </div>
+                    <div class="result-info"> <span>Detected Animal</span>
+                        <h2>Animal Name</h2>
+                        <p>Scientific Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="list">
+                    <p>Identify by list</p>
+                    <h1>Search animal from list</h1>
+                </div>
+                <div class="search-section">
+                    <input type="list" placeholder="search for an animal">
+                    <datalist id="list" class="animal-list11">
+
+                    </datalist>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="situation">
+        <div class="header2">
+            <h1>Situation & Emergency</h1>
+            <p>Select or describe the situation to help rescuers prepare the right emergency care and equipment.</p>
+        </div>
+
+        <div class="situation-head">
+            <p>Emergency Category</p>
+            <h1>Select Incident Situation</h1>
+            <p>You can select multiple emergency factors if applicable.</p>
+        </div>
+
+        <div class="emergency-options">
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🚗</span>
+                <span>
+                    <strong>Accident / Trauma</strong>
+                    <small>Vehicle collision, fall, hit by object</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🩹</span>
+                <span>
+                    <strong>Injured / Wounded</strong>
+                    <small>Cuts, wounds, injured body parts</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🤒</span>
+                <span>
+                    <strong>Unwell / Sick</strong>
+                    <small>Animal appears sick or abnormal</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🐾</span>
+                <span>
+                    <strong>Helpless / Cannot Move</strong>
+                    <small>Cannot stand, walk, fly, etc.</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🐣</span>
+                <span>
+                    <strong>Baby / Abandoned</strong>
+                    <small>Young animal alone or abandoned</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">☠️</span>
+                <span>
+                    <strong>Possible Poisoning</strong>
+                    <small>Suspected ingestion or exposure</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🔥</span>
+                <span>
+                    <strong>Burn / Heat Emergency</strong>
+                    <small>Burns, extreme heat</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🫁</span>
+                <span>
+                    <strong>Breathing Difficulty</strong>
+                    <small>Struggling to breathe</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🩸</span>
+                <span>
+                    <strong>Heavy Bleeding</strong>
+                    <small>Significant visible bleeding</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">🪢</span>
+                <span>
+                    <strong>Trapped / Entangled</strong>
+                    <small>Wire, net, fence, drain, etc.</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">😵</span>
+                <span>
+                    <strong>Unconscious / Unresponsive</strong>
+                    <small>Not responding normally</small>
+                </span>
+            </button>
+
+            <button class="emergency-btn">
+                <span class="emergency-icon">❓</span>
+                <span>
+                    <strong>Other Emergency</strong>
+                    <small>Anything not covered above</small>
+                </span>
+            </button>
+
+        </div>
+
+
+        <div class="body-part-section">
+
+            <div class="situation-head">
+                <p>Injury Location</p>
+                <h1>Where is the Animal Affected?</h1>
+                <p>Select the body part if there is a visible injury or problem.</p>
+            </div>
+
+            <div class="body-part-options">
+
+                <button class="body-part-btn">Head</button>
+                <button class="body-part-btn">Eye</button>
+                <button class="body-part-btn">Ear</button>
+                <button class="body-part-btn">Mouth / Beak</button>
+                <button class="body-part-btn">Neck</button>
+                <button class="body-part-btn">Chest</button>
+                <button class="body-part-btn">Abdomen</button>
+                <button class="body-part-btn">Back</button>
+                <button class="body-part-btn">Front Left Limb</button>
+                <button class="body-part-btn">Front Right Limb</button>
+                <button class="body-part-btn">Back Left Limb</button>
+                <button class="body-part-btn">Back Right Limb</button>
+                <button class="body-part-btn">Tail</button>
+                <button class="body-part-btn">Skin / Body</button>
+                <button class="body-part-btn">Whole Body</button>
+                <button class="body-part-btn">Cannot Identify</button>
+                <button class="body-part-btn">Other</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="description-section">
+
+            <div class="situation-head">
+                <p>Additional Information</p>
+                <h1>Describe the Situation</h1>
+                <p>Tell us anything else you noticed about the animal.</p>
+            </div>
+
+            <div class="message-box">
+                <textarea placeholder="Describe what happened, what you noticed, or any other important details..."
+                    maxlength="500"></textarea>
+
+                <div class="message-footer">
+                    <span>Optional</span>
+                    <span>0 / 500</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <h2>Animal Rescuer</h2>
+                <p class="footer-tagline">
+                    Heal <span>•</span> Protect <span>•</span> Give Hope
+                </p>
+                <p class="footer-description">
+                    Helping people respond safely to animals in need by
+                    providing guidance, emergency support and useful resources.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="Animal_rescuer.html">Home</a>
+                <a href="Emergency.html">Emergency</a>
+                <a href="#">AnimalDex</a>
+                <a href="#">Find Help</a>
+                <a href="#">Adopt</a>
+                <a href="#">About Us</a>
+            </div>
+            <div class="footer-links">
+                <h3>Emergency Help</h3>
+                <a href="#">First Aid Guide</a>
+                <a href="#">Find Veterinary Hospital</a>
+                <a href="#">Contact Rescue Team</a>
+                <a href="#">Forest Department</a>
+                <a href="#">Wildlife Emergency</a>
+                <a href="#">Report an Emergency</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Need Help?</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <strong>Emergency</strong>
+                        <p>Get immediate assistance</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <strong>Nearby Help</strong>
+                        <p>Find help near your location</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <strong>Email Us</strong>
+                        <p>support@animalrescuer.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+
+</script>
+
+</html>

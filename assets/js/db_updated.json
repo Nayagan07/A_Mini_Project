@@ -1,0 +1,2300 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "scientificName": "Malus domestica",
+      "family": "Rosaceae",
+      "origin": "Central Asia",
+      "color": [
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet to Tart",
+      "nutrition": {
+        "calories": 52,
+        "carbohydrates": "13.8 g",
+        "protein": "0.3 g",
+        "fat": "0.2 g",
+        "fiber": "2.4 g",
+        "vitaminC": "4.6 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Improves digestion",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Apple Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Pie",
+        "Jam",
+        "Salad"
+      ],
+      "history": "Believed to have originated in Central Asia and cultivated for thousands of years.",
+      "image": "assets/images/fruits/apple.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "scientificName": "Musa acuminata",
+      "family": "Musaceae",
+      "origin": "Southeast Asia",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 89,
+        "carbohydrates": "22.8 g",
+        "protein": "1.1 g",
+        "fat": "0.3 g",
+        "fiber": "2.6 g",
+        "potassium": "358 mg"
+      },
+      "healthBenefits": [
+        "Boosts energy",
+        "Supports heart health",
+        "Aids digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Rich, well-drained soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Banana Plant",
+      "culinaryUses": [
+        "Fresh",
+        "Smoothies",
+        "Desserts",
+        "Chips"
+      ],
+      "history": "One of the oldest cultivated fruits, first domesticated in Southeast Asia.",
+      "image": "assets/images/fruits/banana.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mango",
+      "scientificName": "Mangifera indica",
+      "family": "Anacardiaceae",
+      "origin": "India",
+      "color": [
+        "Green",
+        "Yellow",
+        "Orange",
+        "Red"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 60,
+        "carbohydrates": "15 g",
+        "protein": "0.8 g",
+        "fat": "0.4 g",
+        "fiber": "1.6 g",
+        "vitaminC": "36 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Improves eye health",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Deep, well-drained soil",
+        "harvestingSeason": "March-July"
+      },
+      "producingPlant": "Mango Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Pickle",
+        "Ice Cream",
+        "Desserts"
+      ],
+      "history": "Known as the 'King of Fruits' and cultivated in India for over 4,000 years.",
+      "image": "assets/images/fruits/mango.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Orange",
+      "scientificName": "Citrus sinensis",
+      "family": "Rutaceae",
+      "origin": "China",
+      "color": [
+        "Orange"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 47,
+        "carbohydrates": "11.8 g",
+        "protein": "0.9 g",
+        "fat": "0.1 g",
+        "fiber": "2.4 g",
+        "vitaminC": "53 mg"
+      },
+      "healthBenefits": [
+        "Strengthens immunity",
+        "Supports skin health",
+        "Rich in vitamin C"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Sandy loam",
+        "harvestingSeason": "November-April"
+      },
+      "producingPlant": "Orange Tree",
+      "culinaryUses": [
+        "Juice",
+        "Fresh",
+        "Marmalade",
+        "Desserts"
+      ],
+      "history": "Sweet oranges were first cultivated in ancient China.",
+      "image": "assets/images/fruits/orange.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Pineapple",
+      "scientificName": "Ananas comosus",
+      "family": "Bromeliaceae",
+      "origin": "South America",
+      "color": [
+        "Brown",
+        "Yellow"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 50,
+        "carbohydrates": "13.1 g",
+        "protein": "0.5 g",
+        "fat": "0.1 g",
+        "fiber": "1.4 g",
+        "vitaminC": "47.8 mg"
+      },
+      "healthBenefits": [
+        "Aids digestion",
+        "Supports immunity",
+        "Reduces inflammation"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Sandy soil",
+        "harvestingSeason": "March-July"
+      },
+      "producingPlant": "Pineapple Plant",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Pizza",
+        "Desserts"
+      ],
+      "history": "Native to South America and spread globally by explorers.",
+      "image": "assets/images/fruits/pineapple.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Grapes",
+      "scientificName": "Vitis vinifera",
+      "family": "Vitaceae",
+      "origin": "Near East",
+      "color": [
+        "Green",
+        "Red",
+        "Black"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 69,
+        "carbohydrates": "18.1 g",
+        "protein": "0.7 g",
+        "fat": "0.2 g",
+        "fiber": "0.9 g"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in antioxidants",
+        "Hydrating"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Grapevine",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Raisins",
+        "Jam"
+      ],
+      "history": "Cultivated for over 8,000 years for food and beverages.",
+      "image": "assets/images/fruits/grapes.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Papaya",
+      "scientificName": "Carica papaya",
+      "family": "Caricaceae",
+      "origin": "Central America",
+      "color": [
+        "Green",
+        "Yellow",
+        "Orange"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 43,
+        "carbohydrates": "10.8 g",
+        "protein": "0.5 g",
+        "fat": "0.3 g",
+        "fiber": "1.7 g",
+        "vitaminC": "60.9 mg"
+      },
+      "healthBenefits": [
+        "Improves digestion",
+        "Boosts immunity",
+        "Supports skin health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Fertile, well-drained soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Papaya Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Salads",
+        "Juice",
+        "Smoothies"
+      ],
+      "history": "Native to Central America and widely cultivated in tropical regions.",
+      "image": "assets/images/fruits/papaya.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Guava",
+      "scientificName": "Psidium guajava",
+      "family": "Myrtaceae",
+      "origin": "Central America",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 68,
+        "carbohydrates": "14.3 g",
+        "protein": "2.6 g",
+        "fat": "1 g",
+        "fiber": "5.4 g",
+        "vitaminC": "228 mg"
+      },
+      "healthBenefits": [
+        "Very high in vitamin C",
+        "Supports immunity",
+        "Aids digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "August-November"
+      },
+      "producingPlant": "Guava Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Jam",
+        "Jelly"
+      ],
+      "history": "Introduced from Central America to many tropical countries.",
+      "image": "assets/images/fruits/guava.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Watermelon",
+      "scientificName": "Citrullus lanatus",
+      "family": "Cucurbitaceae",
+      "origin": "Africa",
+      "color": [
+        "Green",
+        "Red"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 30,
+        "carbohydrates": "7.6 g",
+        "protein": "0.6 g",
+        "fat": "0.2 g",
+        "fiber": "0.4 g"
+      },
+      "healthBenefits": [
+        "Keeps body hydrated",
+        "Supports heart health",
+        "Rich in lycopene"
+      ],
+      "cultivation": {
+        "climate": "Warm",
+        "soil": "Sandy loam",
+        "harvestingSeason": "May-September"
+      },
+      "producingPlant": "Watermelon Vine",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Salad"
+      ],
+      "history": "Cultivated in Africa thousands of years ago.",
+      "image": "assets/images/fruits/watermelon.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Strawberry",
+      "scientificName": "Fragaria × ananassa",
+      "family": "Rosaceae",
+      "origin": "Europe",
+      "color": [
+        "Red"
+      ],
+      "taste": "Sweet and Slightly Tart",
+      "nutrition": {
+        "calories": 32,
+        "carbohydrates": "7.7 g",
+        "protein": "0.7 g",
+        "fat": "0.3 g",
+        "fiber": "2 g",
+        "vitaminC": "58.8 mg"
+      },
+      "healthBenefits": [
+        "Rich in antioxidants",
+        "Supports heart health",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained sandy loam",
+        "harvestingSeason": "February-April"
+      },
+      "producingPlant": "Strawberry Plant",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Desserts",
+        "Milkshakes"
+      ],
+      "history": "The modern strawberry originated from a hybrid developed in Europe.",
+      "image": "assets/images/fruits/strawberry.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Kiwi",
+      "scientificName": "Actinidia deliciosa",
+      "family": "Actinidiaceae",
+      "origin": "China",
+      "color": [
+        "Brown",
+        "Green"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 61,
+        "carbohydrates": "14.7 g",
+        "protein": "1.1 g",
+        "fat": "0.5 g",
+        "fiber": "3 g",
+        "vitaminC": "92.7 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Improves digestion",
+        "Supports heart health"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "October-November"
+      },
+      "producingPlant": "Kiwi Vine",
+      "culinaryUses": [
+        "Fresh",
+        "Smoothies",
+        "Desserts",
+        "Salads"
+      ],
+      "history": "Originally known as the Chinese gooseberry before becoming popular in New Zealand.",
+      "image": "assets/images/fruits/kiwi.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Pear",
+      "scientificName": "Pyrus communis",
+      "family": "Rosaceae",
+      "origin": "Europe and Western Asia",
+      "color": [
+        "Green",
+        "Yellow",
+        "Red"
+      ],
+      "taste": "Sweet and Juicy",
+      "nutrition": {
+        "calories": 57,
+        "carbohydrates": "15.2 g",
+        "protein": "0.4 g",
+        "fat": "0.1 g",
+        "fiber": "3.1 g",
+        "vitaminC": "4.3 mg"
+      },
+      "healthBenefits": [
+        "Improves digestion",
+        "Supports heart health",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Loamy soil",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Pear Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Salads",
+        "Desserts"
+      ],
+      "history": "Cultivated in Europe for over 3,000 years.",
+      "image": "assets/images/fruits/pear.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Peach",
+      "scientificName": "Prunus persica",
+      "family": "Rosaceae",
+      "origin": "China",
+      "color": [
+        "Yellow",
+        "Orange",
+        "Red"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 39,
+        "carbohydrates": "9.5 g",
+        "protein": "0.9 g",
+        "fat": "0.3 g",
+        "fiber": "1.5 g",
+        "vitaminC": "6.6 mg"
+      },
+      "healthBenefits": [
+        "Supports skin health",
+        "Boosts immunity",
+        "Improves digestion"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained sandy loam",
+        "harvestingSeason": "May-August"
+      },
+      "producingPlant": "Peach Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Pie",
+        "Juice"
+      ],
+      "history": "Peaches originated in China and spread via the Silk Road.",
+      "image": "assets/images/fruits/peach.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Plum",
+      "scientificName": "Prunus domestica",
+      "family": "Rosaceae",
+      "origin": "Europe and Asia",
+      "color": [
+        "Purple",
+        "Red",
+        "Yellow"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 46,
+        "carbohydrates": "11.4 g",
+        "protein": "0.7 g",
+        "fat": "0.3 g",
+        "fiber": "1.4 g",
+        "vitaminC": "9.5 mg"
+      },
+      "healthBenefits": [
+        "Supports bone health",
+        "Improves digestion",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Loamy soil",
+        "harvestingSeason": "July-September"
+      },
+      "producingPlant": "Plum Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Juice",
+        "Desserts"
+      ],
+      "history": "Plums have been cultivated since ancient Roman times.",
+      "image": "assets/images/fruits/plum.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Cherry",
+      "scientificName": "Prunus avium",
+      "family": "Rosaceae",
+      "origin": "Europe and Western Asia",
+      "color": [
+        "Red",
+        "Dark Red"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 50,
+        "carbohydrates": "12.2 g",
+        "protein": "1 g",
+        "fat": "0.3 g",
+        "fiber": "1.6 g",
+        "vitaminC": "7 mg"
+      },
+      "healthBenefits": [
+        "Reduces inflammation",
+        "Supports sleep",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained fertile soil",
+        "harvestingSeason": "May-July"
+      },
+      "producingPlant": "Cherry Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Pie",
+        "Jam",
+        "Juice"
+      ],
+      "history": "Named after the ancient city of Cerasus in modern-day Turkey.",
+      "image": "assets/images/fruits/cherry.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Pomegranate",
+      "scientificName": "Punica granatum",
+      "family": "Lythraceae",
+      "origin": "Iran to Northern India",
+      "color": [
+        "Red"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 83,
+        "carbohydrates": "18.7 g",
+        "protein": "1.7 g",
+        "fat": "1.2 g",
+        "fiber": "4 g",
+        "vitaminC": "10.2 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in antioxidants",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "September-November"
+      },
+      "producingPlant": "Pomegranate Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Salads",
+        "Desserts"
+      ],
+      "history": "One of the oldest cultivated fruits in the Middle East.",
+      "image": "assets/images/fruits/pomegranate.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Lemon",
+      "scientificName": "Citrus limon",
+      "family": "Rutaceae",
+      "origin": "India",
+      "color": [
+        "Yellow"
+      ],
+      "taste": "Sour",
+      "nutrition": {
+        "calories": 29,
+        "carbohydrates": "9.3 g",
+        "protein": "1.1 g",
+        "fat": "0.3 g",
+        "fiber": "2.8 g",
+        "vitaminC": "53 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Improves digestion",
+        "Supports skin health"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained sandy soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Lemon Tree",
+      "culinaryUses": [
+        "Juice",
+        "Tea",
+        "Desserts",
+        "Cooking"
+      ],
+      "history": "Believed to have originated in India before spreading worldwide.",
+      "image": "assets/images/fruits/lemon.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Lime",
+      "scientificName": "Citrus aurantiifolia",
+      "family": "Rutaceae",
+      "origin": "Southeast Asia",
+      "color": [
+        "Green"
+      ],
+      "taste": "Sour",
+      "nutrition": {
+        "calories": 30,
+        "carbohydrates": "10.5 g",
+        "protein": "0.7 g",
+        "fat": "0.2 g",
+        "fiber": "2.8 g",
+        "vitaminC": "29.1 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Aids digestion",
+        "Supports skin health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Lime Tree",
+      "culinaryUses": [
+        "Juice",
+        "Cooking",
+        "Drinks",
+        "Pickles"
+      ],
+      "history": "Used by sailors to prevent scurvy because of its vitamin C content.",
+      "image": "assets/images/fruits/lime.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Dragon Fruit",
+      "scientificName": "Selenicereus undatus",
+      "family": "Cactaceae",
+      "origin": "Central America",
+      "color": [
+        "Pink",
+        "White"
+      ],
+      "taste": "Mildly Sweet",
+      "nutrition": {
+        "calories": 60,
+        "carbohydrates": "13 g",
+        "protein": "1.2 g",
+        "fat": "0.1 g",
+        "fiber": "3 g",
+        "vitaminC": "9 mg"
+      },
+      "healthBenefits": [
+        "Rich in antioxidants",
+        "Supports digestion",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Sandy, well-drained soil",
+        "harvestingSeason": "June-October"
+      },
+      "producingPlant": "Dragon Fruit Cactus",
+      "culinaryUses": [
+        "Fresh",
+        "Smoothies",
+        "Desserts"
+      ],
+      "history": "Originally native to Central America and now widely cultivated in Asia.",
+      "image": "assets/images/fruits/dragon-fruit.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Lychee",
+      "scientificName": "Litchi chinensis",
+      "family": "Sapindaceae",
+      "origin": "China",
+      "color": [
+        "Red",
+        "Pink"
+      ],
+      "taste": "Sweet and Floral",
+      "nutrition": {
+        "calories": 66,
+        "carbohydrates": "16.5 g",
+        "protein": "0.8 g",
+        "fat": "0.4 g",
+        "fiber": "1.3 g",
+        "vitaminC": "71.5 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Supports skin health",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "May-July"
+      },
+      "producingPlant": "Lychee Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Desserts",
+        "Ice Cream"
+      ],
+      "history": "Lychee has been cultivated in China for more than 2,000 years.",
+      "image": "assets/images/fruits/lychee.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Jackfruit",
+      "scientificName": "Artocarpus heterophyllus",
+      "family": "Moraceae",
+      "origin": "India",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 95,
+        "carbohydrates": "23.2 g",
+        "protein": "1.7 g",
+        "fat": "0.6 g",
+        "fiber": "1.5 g",
+        "vitaminC": "13.7 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Improves digestion",
+        "Provides energy"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "March-June"
+      },
+      "producingPlant": "Jackfruit Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Curries",
+        "Chips",
+        "Desserts"
+      ],
+      "history": "Native to India and cultivated throughout South and Southeast Asia.",
+      "image": "assets/images/fruits/jackfruit.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Custard Apple",
+      "scientificName": "Annona squamosa",
+      "family": "Annonaceae",
+      "origin": "Tropical Americas",
+      "color": [
+        "Green"
+      ],
+      "taste": "Sweet and Creamy",
+      "nutrition": {
+        "calories": 94,
+        "carbohydrates": "23.6 g",
+        "protein": "2.1 g",
+        "fat": "0.3 g",
+        "fiber": "4.4 g",
+        "vitaminC": "19.2 mg"
+      },
+      "healthBenefits": [
+        "Supports digestion",
+        "Improves immunity",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Sandy loam",
+        "harvestingSeason": "August-November"
+      },
+      "producingPlant": "Custard Apple Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Milkshakes",
+        "Ice Cream"
+      ],
+      "history": "Spread from the Americas to Asia by Spanish and Portuguese traders.",
+      "image": "assets/images/fruits/custard-apple.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Sapodilla",
+      "scientificName": "Manilkara zapota",
+      "family": "Sapotaceae",
+      "origin": "Mexico",
+      "color": [
+        "Brown"
+      ],
+      "taste": "Sweet and Malty",
+      "nutrition": {
+        "calories": 83,
+        "carbohydrates": "19.9 g",
+        "protein": "0.4 g",
+        "fat": "1.1 g",
+        "fiber": "5.3 g",
+        "vitaminC": "14.7 mg"
+      },
+      "healthBenefits": [
+        "Improves digestion",
+        "Provides energy",
+        "Supports bone health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "January-May"
+      },
+      "producingPlant": "Sapodilla Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Milkshakes",
+        "Desserts"
+      ],
+      "history": "Known for producing chicle, once used to make chewing gum.",
+      "image": "assets/images/fruits/sapodilla.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Star Fruit",
+      "scientificName": "Averrhoa carambola",
+      "family": "Oxalidaceae",
+      "origin": "Southeast Asia",
+      "color": [
+        "Yellow"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 31,
+        "carbohydrates": "6.7 g",
+        "protein": "1 g",
+        "fat": "0.3 g",
+        "fiber": "2.8 g",
+        "vitaminC": "34.4 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Low in calories",
+        "Supports digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Loamy soil",
+        "harvestingSeason": "June-December"
+      },
+      "producingPlant": "Star Fruit Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Salads",
+        "Desserts"
+      ],
+      "history": "Named after its distinctive star-shaped cross-section.",
+      "image": "assets/images/fruits/star-fruit.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Passion Fruit",
+      "scientificName": "Passiflora edulis",
+      "family": "Passifloraceae",
+      "origin": "South America",
+      "color": [
+        "Purple",
+        "Yellow"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 97,
+        "carbohydrates": "23.4 g",
+        "protein": "2.2 g",
+        "fat": "0.7 g",
+        "fiber": "10.4 g",
+        "vitaminC": "30 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Improves digestion",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "December-April"
+      },
+      "producingPlant": "Passion Fruit Vine",
+      "culinaryUses": [
+        "Juice",
+        "Desserts",
+        "Smoothies"
+      ],
+      "history": "Named by Spanish missionaries because the flower symbolized the Passion of Christ.",
+      "image": "assets/images/fruits/passion-fruit.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Fig",
+      "scientificName": "Ficus carica",
+      "family": "Moraceae",
+      "origin": "Western Asia",
+      "color": [
+        "Purple",
+        "Green"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 74,
+        "carbohydrates": "19.2 g",
+        "protein": "0.8 g",
+        "fat": "0.3 g",
+        "fiber": "2.9 g",
+        "calcium": "35 mg"
+      },
+      "healthBenefits": [
+        "Supports bone health",
+        "Improves digestion",
+        "Rich in fiber"
+      ],
+      "cultivation": {
+        "climate": "Mediterranean",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "June-September"
+      },
+      "producingPlant": "Fig Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Dried",
+        "Jam",
+        "Desserts"
+      ],
+      "history": "One of the earliest cultivated fruit trees in human history.",
+      "image": "assets/images/fruits/fig.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Mulberry",
+      "scientificName": "Morus alba",
+      "family": "Moraceae",
+      "origin": "China",
+      "color": [
+        "White",
+        "Red",
+        "Black"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 43,
+        "carbohydrates": "9.8 g",
+        "protein": "1.4 g",
+        "fat": "0.4 g",
+        "fiber": "1.7 g",
+        "vitaminC": "36.4 mg"
+      },
+      "healthBenefits": [
+        "Supports immunity",
+        "Rich in iron",
+        "Improves blood circulation"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Loamy soil",
+        "harvestingSeason": "May-July"
+      },
+      "producingPlant": "Mulberry Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Juice",
+        "Tea"
+      ],
+      "history": "Mulberry leaves are the primary food source for silkworms.",
+      "image": "assets/images/fruits/mulberry.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Coconut",
+      "scientificName": "Cocos nucifera",
+      "family": "Arecaceae",
+      "origin": "Indo-Pacific Region",
+      "color": [
+        "Green",
+        "Brown"
+      ],
+      "taste": "Sweet and Nutty",
+      "nutrition": {
+        "calories": 354,
+        "carbohydrates": "15.2 g",
+        "protein": "3.3 g",
+        "fat": "33.5 g",
+        "fiber": "9 g",
+        "potassium": "356 mg"
+      },
+      "healthBenefits": [
+        "Hydrates the body",
+        "Provides healthy fats",
+        "Supports heart health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Sandy coastal soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Coconut Palm",
+      "culinaryUses": [
+        "Water",
+        "Milk",
+        "Oil",
+        "Desserts",
+        "Curries"
+      ],
+      "history": "Known as the 'Tree of Life' because nearly every part is useful.",
+      "image": "assets/images/fruits/coconut.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Avocado",
+      "scientificName": "Persea americana",
+      "family": "Lauraceae",
+      "origin": "Mexico",
+      "color": [
+        "Green",
+        "Dark Green"
+      ],
+      "taste": "Creamy and Buttery",
+      "nutrition": {
+        "calories": 160,
+        "carbohydrates": "8.5 g",
+        "protein": "2 g",
+        "fat": "14.7 g",
+        "fiber": "6.7 g",
+        "potassium": "485 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in healthy fats",
+        "Improves skin health"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "November-April"
+      },
+      "producingPlant": "Avocado Tree",
+      "culinaryUses": [
+        "Salads",
+        "Guacamole",
+        "Smoothies"
+      ],
+      "history": "Cultivated in Central America for over 5,000 years.",
+      "image": "assets/images/fruits/avocado.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Rambutan",
+      "scientificName": "Nephelium lappaceum",
+      "family": "Sapindaceae",
+      "origin": "Malaysia and Indonesia",
+      "color": [
+        "Red",
+        "Yellow"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 82,
+        "carbohydrates": "20.9 g",
+        "protein": "0.9 g",
+        "fat": "0.2 g",
+        "fiber": "0.9 g",
+        "vitaminC": "8 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Supports healthy skin",
+        "Provides energy"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Rich, well-drained soil",
+        "harvestingSeason": "July-September"
+      },
+      "producingPlant": "Rambutan Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Desserts",
+        "Fruit Salads"
+      ],
+      "history": "The name 'Rambutan' comes from the Malay word 'rambut', meaning hair.",
+      "image": "assets/images/fruits/rambutan.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Blackberry",
+      "scientificName": "Rubus fruticosus",
+      "family": "Rosaceae",
+      "origin": "Europe",
+      "color": [
+        "Black"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 43,
+        "carbohydrates": "9.6 g",
+        "protein": "1.4 g",
+        "fat": "0.5 g",
+        "fiber": "5.3 g",
+        "vitaminC": "21 mg"
+      },
+      "healthBenefits": [
+        "Rich in antioxidants",
+        "Boosts immunity",
+        "Supports brain health"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "June-August"
+      },
+      "producingPlant": "Blackberry Bush",
+      "culinaryUses": [
+        "Jam",
+        "Juice",
+        "Desserts",
+        "Smoothies"
+      ],
+      "history": "Consumed since ancient Greek and Roman times.",
+      "image": "assets/images/fruits/blackberry.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Blueberry",
+      "scientificName": "Vaccinium corymbosum",
+      "family": "Ericaceae",
+      "origin": "North America",
+      "color": [
+        "Blue"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 57,
+        "carbohydrates": "14.5 g",
+        "protein": "0.7 g",
+        "fat": "0.3 g",
+        "fiber": "2.4 g",
+        "vitaminC": "9.7 mg"
+      },
+      "healthBenefits": [
+        "Improves memory",
+        "Supports heart health",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Acidic soil",
+        "harvestingSeason": "June-August"
+      },
+      "producingPlant": "Blueberry Bush",
+      "culinaryUses": [
+        "Fresh",
+        "Muffins",
+        "Jam",
+        "Smoothies"
+      ],
+      "history": "Native Americans used blueberries for food and medicine.",
+      "image": "assets/images/fruits/blueberry.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Cranberry",
+      "scientificName": "Vaccinium macrocarpon",
+      "family": "Ericaceae",
+      "origin": "North America",
+      "color": [
+        "Red"
+      ],
+      "taste": "Tart",
+      "nutrition": {
+        "calories": 46,
+        "carbohydrates": "12.2 g",
+        "protein": "0.4 g",
+        "fat": "0.1 g",
+        "fiber": "4.6 g",
+        "vitaminC": "14 mg"
+      },
+      "healthBenefits": [
+        "Supports urinary tract health",
+        "Rich in antioxidants",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Cool Temperate",
+        "soil": "Acidic bog soil",
+        "harvestingSeason": "September-November"
+      },
+      "producingPlant": "Cranberry Vine",
+      "culinaryUses": [
+        "Juice",
+        "Sauce",
+        "Dried Snacks"
+      ],
+      "history": "Traditionally harvested in bogs in North America.",
+      "image": "assets/images/fruits/cranberry.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Gooseberry",
+      "scientificName": "Ribes uva-crispa",
+      "family": "Grossulariaceae",
+      "origin": "Europe",
+      "color": [
+        "Green",
+        "Red"
+      ],
+      "taste": "Sour",
+      "nutrition": {
+        "calories": 44,
+        "carbohydrates": "10.2 g",
+        "protein": "0.9 g",
+        "fat": "0.6 g",
+        "fiber": "4.3 g",
+        "vitaminC": "27 mg"
+      },
+      "healthBenefits": [
+        "Improves immunity",
+        "Supports digestion",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Moist fertile soil",
+        "harvestingSeason": "June-August"
+      },
+      "producingPlant": "Gooseberry Bush",
+      "culinaryUses": [
+        "Jam",
+        "Juice",
+        "Desserts"
+      ],
+      "history": "Cultivated across Europe since the Middle Ages.",
+      "image": "assets/images/fruits/gooseberry.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Indian Gooseberry (Amla)",
+      "scientificName": "Phyllanthus emblica",
+      "family": "Phyllanthaceae",
+      "origin": "India",
+      "color": [
+        "Light Green"
+      ],
+      "taste": "Sour and Astringent",
+      "nutrition": {
+        "calories": 44,
+        "carbohydrates": "10.2 g",
+        "protein": "0.9 g",
+        "fat": "0.6 g",
+        "fiber": "4.3 g",
+        "vitaminC": "600 mg"
+      },
+      "healthBenefits": [
+        "Excellent source of Vitamin C",
+        "Improves immunity",
+        "Supports hair and skin health"
+      ],
+      "cultivation": {
+        "climate": "Tropical and Subtropical",
+        "soil": "Light to medium soil",
+        "harvestingSeason": "October-February"
+      },
+      "producingPlant": "Amla Tree",
+      "culinaryUses": [
+        "Pickles",
+        "Juice",
+        "Candy",
+        "Powder"
+      ],
+      "history": "Widely used in Ayurvedic medicine for centuries.",
+      "image": "assets/images/fruits/indian-gooseberry.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Durian",
+      "scientificName": "Durio zibethinus",
+      "family": "Malvaceae",
+      "origin": "Southeast Asia",
+      "color": [
+        "Green",
+        "Brown"
+      ],
+      "taste": "Sweet and Creamy",
+      "nutrition": {
+        "calories": 147,
+        "carbohydrates": "27.1 g",
+        "protein": "1.5 g",
+        "fat": "5.3 g",
+        "fiber": "3.8 g",
+        "potassium": "436 mg"
+      },
+      "healthBenefits": [
+        "Provides energy",
+        "Rich in fiber",
+        "Supports digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Deep fertile soil",
+        "harvestingSeason": "June-August"
+      },
+      "producingPlant": "Durian Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Ice Cream",
+        "Desserts"
+      ],
+      "history": "Known as the 'King of Fruits' in Southeast Asia.",
+      "image": "assets/images/fruits/durian.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Mangosteen",
+      "scientificName": "Garcinia mangostana",
+      "family": "Clusiaceae",
+      "origin": "Malaysia",
+      "color": [
+        "Purple"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 73,
+        "carbohydrates": "17.9 g",
+        "protein": "0.4 g",
+        "fat": "0.6 g",
+        "fiber": "1.8 g",
+        "vitaminC": "2.9 mg"
+      },
+      "healthBenefits": [
+        "Rich in antioxidants",
+        "Supports immunity",
+        "May reduce inflammation"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Rich, moist soil",
+        "harvestingSeason": "May-September"
+      },
+      "producingPlant": "Mangosteen Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Desserts"
+      ],
+      "history": "Often called the 'Queen of Fruits'.",
+      "image": "assets/images/fruits/mangosteen.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Longan",
+      "scientificName": "Dimocarpus longan",
+      "family": "Sapindaceae",
+      "origin": "China",
+      "color": [
+        "Brown"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 60,
+        "carbohydrates": "15.1 g",
+        "protein": "1.3 g",
+        "fat": "0.1 g",
+        "fiber": "1.1 g",
+        "vitaminC": "84 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Improves skin health",
+        "Supports bone health"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained fertile soil",
+        "harvestingSeason": "July-September"
+      },
+      "producingPlant": "Longan Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Tea",
+        "Desserts"
+      ],
+      "history": "Known as the 'Dragon Eye Fruit' because of its appearance.",
+      "image": "assets/images/fruits/longan.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Pomelo",
+      "scientificName": "Citrus maxima",
+      "family": "Rutaceae",
+      "origin": "Southeast Asia",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet and Mildly Sour",
+      "nutrition": {
+        "calories": 38,
+        "carbohydrates": "9.6 g",
+        "protein": "0.8 g",
+        "fat": "0.04 g",
+        "fiber": "1 g",
+        "vitaminC": "61 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Improves immunity",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained sandy soil",
+        "harvestingSeason": "November-February"
+      },
+      "producingPlant": "Pomelo Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Salads",
+        "Juice"
+      ],
+      "history": "The largest citrus fruit and an ancestor of grapefruit.",
+      "image": "assets/images/fruits/pomelo.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Grapefruit",
+      "scientificName": "Citrus × paradisi",
+      "family": "Rutaceae",
+      "origin": "Barbados",
+      "color": [
+        "Yellow",
+        "Pink",
+        "Red"
+      ],
+      "taste": "Sweet and Bitter",
+      "nutrition": {
+        "calories": 42,
+        "carbohydrates": "10.7 g",
+        "protein": "0.8 g",
+        "fat": "0.1 g",
+        "fiber": "1.6 g",
+        "vitaminC": "31 mg"
+      },
+      "healthBenefits": [
+        "Supports weight management",
+        "Boosts immunity",
+        "Supports heart health"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained sandy loam",
+        "harvestingSeason": "October-April"
+      },
+      "producingPlant": "Grapefruit Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Juice",
+        "Salads"
+      ],
+      "history": "Believed to have originated as a natural hybrid between pomelo and sweet orange.",
+      "image": "assets/images/fruits/grapefruit.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Apricot",
+      "scientificName": "Prunus armeniaca",
+      "family": "Rosaceae",
+      "origin": "China",
+      "color": [
+        "Orange",
+        "Yellow"
+      ],
+      "taste": "Sweet and Slightly Tart",
+      "nutrition": {
+        "calories": 48,
+        "carbohydrates": "11.1 g",
+        "protein": "1.4 g",
+        "fat": "0.4 g",
+        "fiber": "2 g",
+        "vitaminA": "1926 IU"
+      },
+      "healthBenefits": [
+        "Improves vision",
+        "Supports skin health",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained sandy loam",
+        "harvestingSeason": "May-July"
+      },
+      "producingPlant": "Apricot Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Dried Fruit",
+        "Desserts"
+      ],
+      "history": "Cultivated in China for over 4,000 years before spreading westward.",
+      "image": "assets/images/fruits/apricot.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Persimmon",
+      "scientificName": "Diospyros kaki",
+      "family": "Ebenaceae",
+      "origin": "China",
+      "color": [
+        "Orange"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 70,
+        "carbohydrates": "18.6 g",
+        "protein": "0.6 g",
+        "fat": "0.2 g",
+        "fiber": "3.6 g",
+        "vitaminA": "1627 IU"
+      },
+      "healthBenefits": [
+        "Supports eye health",
+        "Boosts immunity",
+        "Rich in fiber"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Loamy soil",
+        "harvestingSeason": "September-November"
+      },
+      "producingPlant": "Persimmon Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Desserts",
+        "Jam"
+      ],
+      "history": "Known as the 'Divine Fruit' in many Asian cultures.",
+      "image": "assets/images/fruits/persimmon.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Tamarind",
+      "scientificName": "Tamarindus indica",
+      "family": "Fabaceae",
+      "origin": "Africa",
+      "color": [
+        "Brown"
+      ],
+      "taste": "Sweet and Sour",
+      "nutrition": {
+        "calories": 239,
+        "carbohydrates": "62.5 g",
+        "protein": "2.8 g",
+        "fat": "0.6 g",
+        "fiber": "5.1 g",
+        "potassium": "628 mg"
+      },
+      "healthBenefits": [
+        "Improves digestion",
+        "Rich in antioxidants",
+        "Supports heart health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Deep well-drained soil",
+        "harvestingSeason": "January-April"
+      },
+      "producingPlant": "Tamarind Tree",
+      "culinaryUses": [
+        "Chutney",
+        "Sauce",
+        "Candy",
+        "Juice"
+      ],
+      "history": "Widely used in Indian, Thai, and Mexican cuisines.",
+      "image": "assets/images/fruits/tamarind.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Date",
+      "scientificName": "Phoenix dactylifera",
+      "family": "Arecaceae",
+      "origin": "Middle East",
+      "color": [
+        "Brown"
+      ],
+      "taste": "Very Sweet",
+      "nutrition": {
+        "calories": 277,
+        "carbohydrates": "75 g",
+        "protein": "1.8 g",
+        "fat": "0.2 g",
+        "fiber": "6.7 g",
+        "potassium": "696 mg"
+      },
+      "healthBenefits": [
+        "Provides energy",
+        "Supports digestion",
+        "Rich in minerals"
+      ],
+      "cultivation": {
+        "climate": "Desert",
+        "soil": "Sandy soil",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Date Palm",
+      "culinaryUses": [
+        "Snacks",
+        "Desserts",
+        "Syrup"
+      ],
+      "history": "Cultivated for over 6,000 years in the Middle East.",
+      "image": "assets/images/fruits/date.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Olive",
+      "scientificName": "Olea europaea",
+      "family": "Oleaceae",
+      "origin": "Mediterranean Region",
+      "color": [
+        "Green",
+        "Black"
+      ],
+      "taste": "Bitter to Savory",
+      "nutrition": {
+        "calories": 115,
+        "carbohydrates": "6.3 g",
+        "protein": "0.8 g",
+        "fat": "10.7 g",
+        "fiber": "3.2 g",
+        "vitaminE": "3.8 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in healthy fats",
+        "Contains antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Mediterranean",
+        "soil": "Rocky, well-drained soil",
+        "harvestingSeason": "September-December"
+      },
+      "producingPlant": "Olive Tree",
+      "culinaryUses": [
+        "Oil",
+        "Pizza",
+        "Salads"
+      ],
+      "history": "A symbol of peace and prosperity in ancient civilizations.",
+      "image": "assets/images/fruits/olive.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Breadfruit",
+      "scientificName": "Artocarpus altilis",
+      "family": "Moraceae",
+      "origin": "New Guinea",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Mild and Starchy",
+      "nutrition": {
+        "calories": 103,
+        "carbohydrates": "27.1 g",
+        "protein": "1.1 g",
+        "fat": "0.2 g",
+        "fiber": "4.9 g",
+        "vitaminC": "29 mg"
+      },
+      "healthBenefits": [
+        "Provides energy",
+        "Supports digestion",
+        "Rich in potassium"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Volcanic fertile soil",
+        "harvestingSeason": "May-August"
+      },
+      "producingPlant": "Breadfruit Tree",
+      "culinaryUses": [
+        "Roasted",
+        "Boiled",
+        "Chips",
+        "Curries"
+      ],
+      "history": "Introduced to the Caribbean in the 18th century.",
+      "image": "assets/images/fruits/breadfruit.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Soursop",
+      "scientificName": "Annona muricata",
+      "family": "Annonaceae",
+      "origin": "Central America",
+      "color": [
+        "Green"
+      ],
+      "taste": "Sweet and Sour",
+      "nutrition": {
+        "calories": 66,
+        "carbohydrates": "16.8 g",
+        "protein": "1 g",
+        "fat": "0.3 g",
+        "fiber": "3.3 g",
+        "vitaminC": "20.6 mg"
+      },
+      "healthBenefits": [
+        "Boosts immunity",
+        "Rich in antioxidants",
+        "Supports digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "June-September"
+      },
+      "producingPlant": "Soursop Tree",
+      "culinaryUses": [
+        "Juice",
+        "Ice Cream",
+        "Smoothies"
+      ],
+      "history": "Popular in the Caribbean and South America.",
+      "image": "assets/images/fruits/soursop.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Loquat",
+      "scientificName": "Eriobotrya japonica",
+      "family": "Rosaceae",
+      "origin": "China",
+      "color": [
+        "Yellow",
+        "Orange"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 47,
+        "carbohydrates": "12.1 g",
+        "protein": "0.4 g",
+        "fat": "0.2 g",
+        "fiber": "1.7 g",
+        "vitaminA": "1528 IU"
+      },
+      "healthBenefits": [
+        "Supports eye health",
+        "Improves immunity",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained loamy soil",
+        "harvestingSeason": "April-June"
+      },
+      "producingPlant": "Loquat Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Jelly"
+      ],
+      "history": "Cultivated in China for over 1,000 years.",
+      "image": "assets/images/fruits/loquat.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Jujube",
+      "scientificName": "Ziziphus jujuba",
+      "family": "Rhamnaceae",
+      "origin": "China",
+      "color": [
+        "Green",
+        "Red-Brown"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 79,
+        "carbohydrates": "20.2 g",
+        "protein": "1.2 g",
+        "fat": "0.2 g",
+        "fiber": "3.6 g",
+        "vitaminC": "69 mg"
+      },
+      "healthBenefits": [
+        "Supports sleep",
+        "Boosts immunity",
+        "Improves digestion"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Sandy loam",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Jujube Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Tea",
+        "Candy",
+        "Dried Fruit"
+      ],
+      "history": "Used in traditional Chinese medicine for thousands of years.",
+      "image": "assets/images/fruits/jujube.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Salak (Snake Fruit)",
+      "scientificName": "Salacca zalacca",
+      "family": "Arecaceae",
+      "origin": "Indonesia",
+      "color": [
+        "Brown"
+      ],
+      "taste": "Sweet and Acidic",
+      "nutrition": {
+        "calories": 82,
+        "carbohydrates": "22 g",
+        "protein": "0.6 g",
+        "fat": "0.4 g",
+        "fiber": "2.6 g",
+        "potassium": "256 mg"
+      },
+      "healthBenefits": [
+        "Supports eye health",
+        "Provides energy",
+        "Improves digestion"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Moist fertile soil",
+        "harvestingSeason": "Year-round"
+      },
+      "producingPlant": "Salak Palm",
+      "culinaryUses": [
+        "Fresh",
+        "Pickles",
+        "Desserts"
+      ],
+      "history": "Named 'snake fruit' because of its reddish-brown scaly skin.",
+      "image": "assets/images/fruits/salak-(snake-fruit).jpg"
+    },
+    {
+      "id": 51,
+      "name": "Ackee",
+      "scientificName": "Blighia sapida",
+      "family": "Sapindaceae",
+      "origin": "West Africa",
+      "color": [
+        "Red",
+        "Yellow"
+      ],
+      "taste": "Mild and Nutty",
+      "nutrition": {
+        "calories": 151,
+        "carbohydrates": "9.8 g",
+        "protein": "2.9 g",
+        "fat": "15.2 g",
+        "fiber": "2.7 g",
+        "vitaminC": "30 mg"
+      },
+      "healthBenefits": [
+        "Provides healthy fats",
+        "Supports energy production",
+        "Rich in vitamin C"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained fertile soil",
+        "harvestingSeason": "January-March"
+      },
+      "producingPlant": "Ackee Tree",
+      "culinaryUses": [
+        "Traditional Jamaican dishes",
+        "Boiled"
+      ],
+      "history": "Introduced from West Africa to Jamaica in the 18th century.",
+      "image": "assets/images/fruits/ackee.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Bael",
+      "scientificName": "Aegle marmelos",
+      "family": "Rutaceae",
+      "origin": "India",
+      "color": [
+        "Green",
+        "Yellow"
+      ],
+      "taste": "Sweet and Aromatic",
+      "nutrition": {
+        "calories": 88,
+        "carbohydrates": "31.8 g",
+        "protein": "1.8 g",
+        "fat": "0.3 g",
+        "fiber": "2.9 g",
+        "vitaminC": "8 mg"
+      },
+      "healthBenefits": [
+        "Improves digestion",
+        "Boosts immunity",
+        "Supports gut health"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Dry, well-drained soil",
+        "harvestingSeason": "March-May"
+      },
+      "producingPlant": "Bael Tree",
+      "culinaryUses": [
+        "Juice",
+        "Sherbet",
+        "Jam"
+      ],
+      "history": "A sacred fruit in Hinduism associated with Lord Shiva.",
+      "image": "assets/images/fruits/bael.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Bilberry",
+      "scientificName": "Vaccinium myrtillus",
+      "family": "Ericaceae",
+      "origin": "Europe",
+      "color": [
+        "Dark Blue"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 57,
+        "carbohydrates": "14.5 g",
+        "protein": "0.7 g",
+        "fat": "0.3 g",
+        "fiber": "3.2 g",
+        "vitaminC": "22 mg"
+      },
+      "healthBenefits": [
+        "Supports vision",
+        "Rich in antioxidants",
+        "Improves circulation"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Acidic soil",
+        "harvestingSeason": "July-August"
+      },
+      "producingPlant": "Bilberry Shrub",
+      "culinaryUses": [
+        "Jam",
+        "Pies",
+        "Juice"
+      ],
+      "history": "Used in European herbal medicine for centuries.",
+      "image": "assets/images/fruits/bilberry.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Boysenberry",
+      "scientificName": "Rubus ursinus × idaeus",
+      "family": "Rosaceae",
+      "origin": "United States",
+      "color": [
+        "Dark Purple"
+      ],
+      "taste": "Sweet and Tangy",
+      "nutrition": {
+        "calories": 43,
+        "carbohydrates": "10.2 g",
+        "protein": "1.4 g",
+        "fat": "0.2 g",
+        "fiber": "5.3 g",
+        "vitaminC": "21 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in fiber",
+        "High in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Loamy soil",
+        "harvestingSeason": "May-July"
+      },
+      "producingPlant": "Boysenberry Vine",
+      "culinaryUses": [
+        "Jam",
+        "Pie",
+        "Smoothies"
+      ],
+      "history": "Developed in California in the 1920s.",
+      "image": "assets/images/fruits/boysenberry.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Canistel",
+      "scientificName": "Pouteria campechiana",
+      "family": "Sapotaceae",
+      "origin": "Mexico",
+      "color": [
+        "Yellow"
+      ],
+      "taste": "Sweet",
+      "nutrition": {
+        "calories": 138,
+        "carbohydrates": "36.7 g",
+        "protein": "1.7 g",
+        "fat": "0.1 g",
+        "fiber": "4.6 g",
+        "vitaminA": "180 IU"
+      },
+      "healthBenefits": [
+        "Supports eye health",
+        "Provides energy",
+        "Rich in fiber"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "November-March"
+      },
+      "producingPlant": "Canistel Tree",
+      "culinaryUses": [
+        "Milkshakes",
+        "Custards",
+        "Fresh"
+      ],
+      "history": "Also called Egg Fruit because of its texture.",
+      "image": "assets/images/fruits/canistel.jpg"
+    },
+    {
+      "id": 56,
+      "name": "Cloudberry",
+      "scientificName": "Rubus chamaemorus",
+      "family": "Rosaceae",
+      "origin": "Northern Europe",
+      "color": [
+        "Golden Orange"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 51,
+        "carbohydrates": "11.5 g",
+        "protein": "1.5 g",
+        "fat": "0.8 g",
+        "fiber": "6 g",
+        "vitaminC": "158 mg"
+      },
+      "healthBenefits": [
+        "Very high in vitamin C",
+        "Supports immunity",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Cold",
+        "soil": "Peaty acidic soil",
+        "harvestingSeason": "July-August"
+      },
+      "producingPlant": "Cloudberry Plant",
+      "culinaryUses": [
+        "Jam",
+        "Liqueur",
+        "Desserts"
+      ],
+      "history": "Highly valued in Scandinavian countries.",
+      "image": "assets/images/fruits/cloudberry.jpg"
+    },
+    {
+      "id": 57,
+      "name": "Feijoa",
+      "scientificName": "Acca sellowiana",
+      "family": "Myrtaceae",
+      "origin": "South America",
+      "color": [
+        "Green"
+      ],
+      "taste": "Sweet and Fragrant",
+      "nutrition": {
+        "calories": 55,
+        "carbohydrates": "13 g",
+        "protein": "1 g",
+        "fat": "0.6 g",
+        "fiber": "6.4 g",
+        "vitaminC": "32.9 mg"
+      },
+      "healthBenefits": [
+        "Supports digestion",
+        "Boosts immunity",
+        "Rich in antioxidants"
+      ],
+      "cultivation": {
+        "climate": "Subtropical",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "March-May"
+      },
+      "producingPlant": "Feijoa Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Jam",
+        "Smoothies"
+      ],
+      "history": "Named after Portuguese naturalist João da Silva Feijó.",
+      "image": "assets/images/fruits/feijoa.jpg"
+    },
+    {
+      "id": 58,
+      "name": "Goji Berry",
+      "scientificName": "Lycium barbarum",
+      "family": "Solanaceae",
+      "origin": "China",
+      "color": [
+        "Red"
+      ],
+      "taste": "Sweet and Slightly Tart",
+      "nutrition": {
+        "calories": 349,
+        "carbohydrates": "77 g",
+        "protein": "14 g",
+        "fat": "0.4 g",
+        "fiber": "13 g",
+        "iron": "6.8 mg"
+      },
+      "healthBenefits": [
+        "Supports eye health",
+        "Rich in antioxidants",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Well-drained soil",
+        "harvestingSeason": "August-October"
+      },
+      "producingPlant": "Goji Shrub",
+      "culinaryUses": [
+        "Tea",
+        "Snacks",
+        "Smoothies"
+      ],
+      "history": "Used in traditional Chinese medicine for more than 2,000 years.",
+      "image": "assets/images/fruits/goji-berry.jpg"
+    },
+    {
+      "id": 59,
+      "name": "Huckleberry",
+      "scientificName": "Gaylussacia baccata",
+      "family": "Ericaceae",
+      "origin": "North America",
+      "color": [
+        "Blue",
+        "Purple"
+      ],
+      "taste": "Sweet and Tart",
+      "nutrition": {
+        "calories": 37,
+        "carbohydrates": "9 g",
+        "protein": "0.7 g",
+        "fat": "0.2 g",
+        "fiber": "3.5 g",
+        "vitaminC": "15 mg"
+      },
+      "healthBenefits": [
+        "Supports heart health",
+        "Rich in antioxidants",
+        "Boosts immunity"
+      ],
+      "cultivation": {
+        "climate": "Temperate",
+        "soil": "Acidic forest soil",
+        "harvestingSeason": "July-September"
+      },
+      "producingPlant": "Huckleberry Shrub",
+      "culinaryUses": [
+        "Jam",
+        "Pies",
+        "Syrup"
+      ],
+      "history": "Popular in the Pacific Northwest of North America.",
+      "image": "assets/images/fruits/huckleberry.jpg"
+    },
+    {
+      "id": 60,
+      "name": "Java Apple",
+      "scientificName": "Syzygium samarangense",
+      "family": "Myrtaceae",
+      "origin": "Malaysia",
+      "color": [
+        "Red",
+        "Pink",
+        "Green"
+      ],
+      "taste": "Mildly Sweet",
+      "nutrition": {
+        "calories": 25,
+        "carbohydrates": "5.7 g",
+        "protein": "0.6 g",
+        "fat": "0.3 g",
+        "fiber": "1.1 g",
+        "vitaminC": "22 mg"
+      },
+      "healthBenefits": [
+        "Keeps the body hydrated",
+        "Low in calories",
+        "Supports immunity"
+      ],
+      "cultivation": {
+        "climate": "Tropical",
+        "soil": "Moist fertile soil",
+        "harvestingSeason": "April-June"
+      },
+      "producingPlant": "Java Apple Tree",
+      "culinaryUses": [
+        "Fresh",
+        "Fruit Salads",
+        "Juice"
+      ],
+      "history": "Also known as Wax Apple or Water Apple in many countries.",
+      "image": "assets/images/fruits/java-apple.jpg"
+    }
+  ]
+}
